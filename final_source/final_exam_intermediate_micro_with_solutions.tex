@@ -1,0 +1,335 @@
+%% LyX 2.3.6.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newenvironment{lyxlist}[1]
+	{\begin{list}{}
+		{\settowidth{\labelwidth}{#1}
+		 \setlength{\leftmargin}{\labelwidth}
+		 \addtolength{\leftmargin}{\labelsep}
+		 \renewcommand{\makelabel}[1]{##1\hfil}}}
+	{\end{list}}
+
+\@ifundefined{date}{}{\date{}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\title{Gravity Model of Trade: Case Study of Arabasta and Baltigo}
+\author{Victor H. Aguiar}
+
+\makeatother
+
+\begin{document}
+\title{Final Exam: Case Study on Determinants of Bilateral Trade}
+\maketitle
+
+\section*{Introduction}
+
+The Law of Gravity of Trade is a fundamental principle in international
+economics, positing that trade between two countries is directly proportional
+to their economic size, often measured by GDP, and inversely proportional
+to the geographic distance between them. This model, akin to Newton's
+law of gravity, suggests that larger economies have a greater gravitational
+pull in trade relationships, while distance acts as a trade barrier,
+diminishing trade interactions. This case study aims to apply this
+principle in a simplified scenario involving two fictional countries,
+Arabasta and Baltigo, to illustrate the microfoundations of the law
+of gravity of trade.
+
+\section*{Part 1: Consumption Problem for Arabasta}
+
+We want to model the consumption of domestic and foreign products
+for the country of Arabasta. 
+
+\textbf{Model Setup:} 
+\begin{itemize}
+\item There are 2 countries, Arabasta (a) and Baltigo (b). Goods are differentiated
+by their country of origin. 
+\item $c_{b,a}$ denotes the consumption in Arabasta of the good produced
+in Baltigo, and $c_{a,a}$ represents local consumption in Arabasta
+of the good produced in Arabasta. 
+\item Arabasta total revenue for selling his good both to itself and to
+Baltigo is $y_{a}$. 
+\item The prices faced by Arabasta for the good originating in Baltigo is
+$p_{b,a}$, and the price for the good originating in Arabasta is
+$p_{a,a}$. 
+\end{itemize}
+
+\subsubsection*{\emph{Task for the Student} }
+\begin{lyxlist}{00.00.0000}
+\item [{1.1.}] Write down a utility function for the representative consumer
+of Arabasta, $u_{a}(c_{a,a},c_{b,a})$, and make sure this utility
+has one parameter $\sigma$. Also write down the budget constraint
+faced by Arabasta. 
+\item [{1.2.}] Write down the Lagrangian associated with the constrainted
+maximization of the utility and budget you wrote down before and obtain:
+the consumption levels at Arabasta, $c_{b,a}^{*}$ and $c_{a,a}^{*}$.
+(Notice that by carefully relabeling this optimal consumptions to
+$c_{a,b}^{*}$ and $c_{b,b}^{*}$ you have obtained as well the Baltigo's
+optimal consumption with the exact same utility parameter $\sigma$.).
+\end{lyxlist}
+
+\section*{Part 2: Market Clearing Conditions}
+
+\textbf{Equilibrium Conditions:} 
+\begin{itemize}
+\item For market equilibrium: the total self-exports ($p_{a,a}$ times consumption
+in Arabasta of Arabasta good), and the export to Baltigo ($p_{a,b}$
+times consumption in Baltigo of Arabasta good) must equal Arabasta's
+revenue, $y_{a}$.
+\item The analogous case holds for Baltigo revenue $y_{b}$. 
+\end{itemize}
+\textbf{Price Formulation:} 
+\begin{itemize}
+\item Prices $p_{a,j}$ depend on base prices at origin, $p_{a}$, and trade
+costs, $t_{a,j}$ for $j\in\{a,b\}$: $p_{a,b}=p_{a}t_{a,b}$ and
+$p_{a,a}=p_{a}t_{a,a}$. Note that $t_{a,b}$ reflects the trade cost
+due to distance and other barriers. We restrict that $t_{a,a}=1$,
+so we can simplify it in the analysis, we also assume $t_{a,b}>1$
+and $t_{a,b}=t_{b,a}$. In addition, we will assume that the only
+trade barrier is distance between $a,b$, $d_{a,b}$.
+\end{itemize}
+\textbf{Trade Costs and Consumption:} 
+\begin{itemize}
+\item The cost of importing goods from Baltigo to Arabasta increases with
+distance, affecting the prices and, consequently, the consumption
+patterns. 
+\end{itemize}
+
+\subsubsection*{\emph{Task for the Student} }
+\begin{lyxlist}{00.00.0000}
+\item [{2.1.}] Write down the equilibrium condition that equates Arabasta's
+revenue $y_{a}$ to its exports as described above. Taking as given
+$t_{a,a},t_{a,b}$, and using the optimal demands of Part 1 $c_{a,a}^{*}$
+and $c_{a,b}^{*}$ find the equilibrium value of the good in Arabasta,
+$p_{a}^{*}$, using the market equilibrium conditions. Make sure that
+this price is a function of $y_{a}$ and $t_{a,b}$ as well as the
+parameter of preferences $\sigma$. (Hint: You have to normalize $p_{b}^{*}$,
+e.g., $p_{b}^{*}=1$. Here we need an explicit solution and, if you
+must, choose a number for your preference parameter. Note that there
+is only one solution to this problem, if you are obtaining more than
+one solution one of the possible solutions may not satisfy that $p_{a}>0$.
+). 
+\item [{2.2.}] Write down a production function, with a single parameter
+$\alpha$, with non increasing returns for transporting goods and
+services a certain distance $d_{a,b}=f(k)$, using $k$ units of capital
+(ships). The rental rate (price of $k$) is $r=1$. For simplicity,
+we assume here that neither Arabasta or Baltigo own this transport
+company so the profits of this firm do not enter their budgets. Find
+a cost function $c(d_{a,b})$ associated with the transportation production
+function. Write down an equation for bilateral trade barriers $t_{a,b}=c(d_{a,b})+1$.
+Make sure to verify that the larger the distance the larger the trade
+barrier, make sure that when the distance is zero then $t_{a,b}=f(0)=1$.
+Verify, using derivation, that as distance grows so does the trade
+barrier. 
+\end{lyxlist}
+
+\section*{Part 3: Comparative Statics Analysis in Equilibrium}
+
+ 
+\begin{itemize}
+\item As the distance between Arabasta and Baltigo increases, the trade
+cost $t_{ab}$ rises, leading to a decrease imports.
+\item Bilateral trade is more substantial when both countries are economically
+larger, even if the distance remains constant. 
+\end{itemize}
+
+\subsubsection*{Task for the Student}
+\begin{lyxlist}{00.00.0000}
+\item [{3.1}] Once you have obtained the prices $p_{a}^{*}$ and $p_{b}^{*}=1$
+from the good of Arabasta and Baltigo: Obtain the consumptions in
+Arabasta of Baligo's good in equilibrium, $c_{b,a}^{**}$ (Hint: you
+can do this by pluggin in $p_{a}^{*},p_{b}^{*}$=1 from Part 2 into
+the expression you obtained in Part 1 for $c_{a,b}^{*}$). Now, do
+the same above, to obtain the nominal imports of Baltigo's good in
+Arabasta $x_{b,a}^{**}=p_{b,a}^{*}c_{b,a}^{**}$ (make sure to replace
+$p_{ab}^{*}$ by the appropiate terms given the previous analysis
+using $p_{a}^{*}$). Notice that equilibrium quantities and equilibrium
+imports should not longer be a function fo prices but only of $y_{a},y_{b},t_{a,b}(d_{a,b})$
+. 
+\item [{3.2.}] Demostrate the law of gravity of trade in your model. The
+law of gravity of trade works at the equilibrium nominal imports $x_{b,a}^{**}$.
+First, show that if we duplicate both $y_{a}$ and $y_{b}$ (you may
+assume specific values for GDP, ($y_{a},$$y_{a}$) of Arabasta and
+Baltigo, and distance) then $x_{b,a}^{**}$ strictly increases as
+well. Second, by pluggin in your function for bilateral trade barrier
+in terms of distance, show that if distance is larger, keeping the
+sizes of Arabasta and Baltigo fixed, then $x_{b,a}^{**}$ strictly
+decreases (you can also plug in numerical values here). 
+\end{lyxlist}
+
+\section*{Part 4: Microeconomic Foundation of the Law of Gravity of Trade}
+\begin{description}
+\item [{4.1.}] Provide a one paragraph explanation of why the Law of Gravity
+of Trade explains bilateral trade flows between two countries using
+the concepts we learned in our class and the mode you have developed.
+Hint: Chapter 1 to 4 and Chapter 8 are the relevant parts here. 
+\end{description}
+
+\section*{Solutions}
+
+\subsection*{Solution Part 1:}
+\begin{lyxlist}{00.00.0000}
+\item [{1.1.}] The utility is $u_{a}(c_{a,a},c_{b,a})=c_{a,a}^{\sigma}+c_{b,a}^{\sigma}$
+for $\sigma$ the only parameter. The budget is $p_{aa}c_{aa}+p_{ba}c_{ba}=y_{a}$,
+total imports (self imports + imports from Baltigo) equal to total
+revenue. 
+\end{lyxlist}
+\begin{description}
+\item [{1.2.}] The first step is to pose the Lagrangian
+\end{description}
+$L(c_{a,a},c_{b,a},\lambda)=c_{a,a}^{\sigma}+c_{b,a}^{\sigma}+\lambda(y_{a}-p_{aa}c_{aa}+p_{ba}c_{ba})$
+
+(I) $\frac{\partial L}{\partial c_{a,a}}=\sigma c_{a,a}^{\sigma-1}-\lambda p_{a,a}=0$
+
+(II) $\frac{\partial L}{\partial c_{b,a}}=\sigma c_{b,a}^{\sigma-1}-\lambda p_{b,a}=0$
+
+(III) $\frac{\partial L}{\partial\lambda}=y_{a}-p_{aa}c_{aa}+p_{ba}c_{ba}=0$
+
+From (I) and (II) we obtain the MRS equal to the ratio of prices conditions:
+
+\[
+\frac{c_{a,a}^{\sigma-1}}{c_{b,a}^{\sigma-1}}=\frac{p_{a,a}}{p_{b,a}}
+\]
+
+From this condition we isolate $x_{1}$:
+
+\[
+c_{a,a}=c_{b,a}\left(\frac{p_{a,a}}{p_{b,a}}\right)^{\frac{1}{\sigma-1}}
+\]
+
+Then we plug-in this into (III)/budget:
+
+\[
+p_{a,a}\left(c_{b,a}\left(\frac{p_{a,a}}{p_{b,a}}\right)^{\frac{1}{\sigma-1}}\right)+p_{b,a}c_{b,a}=y_{a}.
+\]
+
+Now solve for $c_{b,a}$ in terms of $p_{a,a},p_{b,a},y_{a}$:
+
+\[
+c_{b,a}^{*}=\frac{p_{b,a}^{\frac{1}{\sigma-1}}y_{a}}{p_{a,a}^{\frac{\sigma}{\sigma-1}}+p_{b,a}^{\frac{\sigma}{\sigma-1}}}
+\]
+
+\[
+c_{a,a}^{*}=\frac{p_{a,a}^{\frac{1}{\sigma-1}}y_{a}}{p_{a,a}^{\frac{\sigma}{\sigma-1}}+p_{b,a}^{\frac{\sigma}{\sigma-1}}}.
+\]
+
+Baltigo Solution:
+
+\[
+c_{a,b}^{*}=\frac{p_{a,b}^{\frac{1}{\sigma-1}}y_{b}}{p_{b,b}^{\frac{\sigma}{\sigma-1}}+p_{a,b}^{\frac{\sigma}{\sigma-1}}}
+\]
+
+\[
+c_{b,b}^{*}=\frac{p_{b,b}^{\frac{1}{\sigma-1}}y_{b}}{p_{b,b}^{\frac{\sigma}{\sigma-1}}+p_{a,b}^{\frac{\sigma}{\sigma-1}}}.
+\]
+
+
+\subsection*{Solution Part 2:}
+
+2.1 Equilibrium equation says: 
+
+\[
+y_{a}=p_{a,a}c_{a,a}+p_{a,b}c_{a,b}.
+\]
+
+\[
+y_{a}=p_{a}c_{a,a}+p_{a}t_{a,b}c_{a,b}
+\]
+
+Now, we plug in $c_{a,a}^{*},c_{a,b}^{*}$
+
+\[
+y_{a}=p_{a}\left(\frac{p_{a,a}^{\frac{1}{\sigma-1}}y_{a}}{p_{a,a}^{\frac{\sigma}{\sigma-1}}+p_{b,a}^{\frac{\sigma}{\sigma-1}}}\right)+p_{a}t_{a,b}\left(\frac{p_{a,b}^{\frac{1}{\sigma-1}}y_{b}}{p_{b,b}^{\frac{\sigma}{\sigma-1}}+p_{a,b}^{\frac{\sigma}{\sigma-1}}}\right)
+\]
+
+Replace the price expressions
+
+\[
+y_{a}=p_{a}^{\frac{\sigma}{\sigma-1}}\left(\frac{y_{a}}{p_{a}^{\frac{\sigma}{\sigma-1}}+t_{a,b}^{\frac{\sigma}{\sigma-1}}}+\frac{t_{a,b}^{\frac{\sigma}{\sigma-1}}y_{b}}{1+p_{a}^{\frac{\sigma}{\sigma-1}}t_{a,b}^{\frac{\sigma}{\sigma-1}}}\right)
+\]
+
+Letting $\sigma=\frac{1}{2}$ then, we can solve explicitly the implicit
+solution above. In this case there are two numerical solutions, but
+only one economic solution:
+
+\[
+p_{a}^{*}=\frac{y_{b}-y_{a}+\sqrt{y_{a}^{2}-2y_{a}y_{b}+4t_{a,b}^{2}y_{a}y_{b}+y_{b}^{2}}}{2t_{a,b}y_{a}}
+\]
+
+You can verify this is the unique nonnegative solution. 
+\begin{lyxlist}{00.00.0000}
+\item [{2.2.}] The cost function with $d_{a,b}=\frac{1}{\alpha}k$, this
+is constant returns, for $\alpha>0$, then by inversion of the production
+function $c(d_{a,b})=\alpha d_{a,b}$ with $r=1$. Then $t_{a,b}=\alpha d_{a,b}+1$,
+$\frac{\partial t_{a,b}}{\partial d_{a,b}}=\alpha>0$.
+\end{lyxlist}
+
+\subsection*{Part 3 Solution}
+\begin{lyxlist}{00.00.0000}
+\item [{3.1}] We obtain $c_{b,a}^{**}$ by replacing 
+\item [{
+\[
+c_{b,a}^{*}=\frac{p_{b,a}^{\frac{1}{\sigma-1}}y_{a}}{p_{a,a}^{\frac{\sigma}{\sigma-1}}+p_{b,a}^{\frac{\sigma}{\sigma-1}}},
+\]
+}]~
+\item [{with}] the appropiate terms:
+\item [{
+\[
+c_{b,a}^{*}=\frac{t_{a,b}^{\frac{1}{\sigma-1}}y_{a}}{p_{a}^{\frac{\sigma}{\sigma-1}}t_{a,a}^{\frac{\sigma}{\sigma-1}}+t_{a,b}^{\frac{\sigma}{\sigma-1}}},
+\]
+}]~
+\item [{now}] replacing $p_{a}^{*}$ for $\sigma=\frac{1}{2}$, we obtain:
+\item [{
+\[
+c_{b,a}^{**}=\frac{2y_{a}^{2}}{(-1+2t_{a,b}^{2})y_{a}+y_{b}+\sqrt{y_{a}^{2}-2y_{a}y_{b}+4t_{a,b}y_{a}y_{b}+y_{b}^{2}}},
+\]
+}]~
+\item [{by}] multiplying by $p_{a}^{*}t_{a,b}$ we obtain $x_{a,b}^{**}$
+\item [{
+\[
+x_{a,b}^{**}=\frac{y_{a}+y_{b}-\sqrt{y_{a}^{2}-2y_{a}y_{b}+4t_{a,b}^{2}y_{a}y_{b}+y_{b}^{2}}}{2-2t_{a,b}^{2}}
+\]
+}]~
+\item [{3.2.}] $y_{a}=1,y_{b}=1,d_{a,b}=1$, with $\alpha=1$
+\item [{
+\[
+x_{ab}^{**}=\frac{1}{3}
+\]
+}]~
+\item [{
+\[
+y_{a}^{*}=2,y_{b}^{*}=2,d_{a,b}=1
+\]
+}]~
+\item [{
+\[
+x_{ab}^{**}=\frac{2}{3}
+\]
+}]~
+\item [{
+\[
+y_{a}=1,y_{b}=1,d_{a,b}=3
+\]
+}]~
+\item [{
+\[
+x_{ab}^{**}=\frac{1}{5}.
+\]
+}]~
+\end{lyxlist}
+
+\subsection*{Part 4 Solution}
+
+The effect of the size of countries is driven by the income effect
+since both goods are normal as the income increases in both countries
+demand will go up. The effect of distance is driven by the substitution
+effect as distance increases prices of the imported good hence this
+will drive demand down, but these findings are only possible because
+imports is equal to export revenues, which is reminicisent of the
+Edgeworth effect, due to that increases in prices will have a secondary
+income effect, so the total effect is ambiguous but we have shown
+using numerical examples that the gravity of bilateral trade works
+out in our model as it does in real life. 
+\end{document}

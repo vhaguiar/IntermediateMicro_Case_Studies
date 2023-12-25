@@ -1,0 +1,1145 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Case Study: The Economics of Shopping: Time, Money, and Retirement
+\end_layout
+
+\begin_layout Section*
+Background
+\end_layout
+
+\begin_layout Standard
+This case study explores how an individual, Carol, allocates her time between
+ leisure, work, and shopping.
+ The focus is on understanding why Carol might consume more after retirement
+ despite a potential reduction in total income.
+\end_layout
+
+\begin_layout Section*
+Scenario
+\end_layout
+
+\begin_layout Standard
+Meet Carol, a woman in her late 50s who is contemplating how to allocate
+ her time between work, leisure, and shopping as she approaches retirement.
+ The time frame of the decision is one day (
+\begin_inset Formula $24$
+\end_inset
+
+ hours).
+\end_layout
+
+\begin_layout Section*
+Setting Up the Problem
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Given:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $c$
+\end_inset
+
+ = Consumption goods.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L$
+\end_inset
+
+ = Leisure time measured in hours.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $s$
+\end_inset
+
+ = Time spent on shopping measured in hours.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $l$
+\end_inset
+
+ = Time spent on work measured in hours.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T$
+\end_inset
+
+ = Total available time in a day, such that 
+\begin_inset Formula $s+l+L=T$
+\end_inset
+
+ (typically 
+\begin_inset Formula $T=24$
+\end_inset
+
+ hours).
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $p$
+\end_inset
+
+ = Price of consumption goods, determined by 
+\begin_inset Formula $p=f(s)$
+\end_inset
+
+, such that (its derivative) 
+\begin_inset Formula $f'(s)<0$
+\end_inset
+
+ capturing the idea that as more time is spent shopping the better deals
+ can the consumer obtain.
+ We require that even if the consumer spends all the time shopping the price
+ is positive (
+\begin_inset Formula $f(T)>0$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $w$
+\end_inset
+
+ = Wage rate per hour.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $R$
+\end_inset
+
+ = Retirement income (converted to daily income).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Budget Constraint:
+\end_layout
+
+\begin_layout Standard
+Still Working: Carol consumes 
+\begin_inset Formula $c$
+\end_inset
+
+ at prices 
+\begin_inset Formula $f(s)$
+\end_inset
+
+, given labor income 
+\begin_inset Formula $w\times l$
+\end_inset
+
+ before retirement.
+ 
+\end_layout
+
+\begin_layout Standard
+Carol retires: Carol consumes 
+\begin_inset Formula $c$
+\end_inset
+
+ at prices 
+\begin_inset Formula $f(s)$
+\end_inset
+
+, given retirement income 
+\begin_inset Formula $R$
+\end_inset
+
+ after retirement.
+ The quantity of retirement she receives does not depends on savings so
+ its fully non labor income.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Time Constraint:
+\end_layout
+
+\begin_layout Standard
+Still working:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s+l+L=T.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Carol retires:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s+L=T.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Questions
+\end_layout
+
+\begin_layout Section
+Situation 1: Carol is Still Working
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Budget and Time Constraints
+\series default
+: Write down Carol's budget and time constraints when she is still working.
+ Assume 
+\begin_inset Formula $R=0$
+\end_inset
+
+ in this case.
+ Hint: use 
+\begin_inset Formula $f(s)=(s)^{-b}$
+\end_inset
+
+ for 
+\begin_inset Formula $b>0$
+\end_inset
+
+.
+ Explain in few sentences the meaning of the shopping technology 
+\begin_inset Formula $f(s)$
+\end_inset
+
+ in terms of the parameter 
+\begin_inset Formula $b$
+\end_inset
+
+ and interpret its economic meaning.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Optimization
+\series default
+: Use the Lagrangian method to solve for Carol's optimal choices of 
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $l$
+\end_inset
+
+ and 
+\begin_inset Formula $s$
+\end_inset
+
+ when she is working Show all steps.
+ Call the optimal value of this problem: 
+\begin_inset Formula $c^{1},L^{1},l^{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $s^{1}$
+\end_inset
+
+.
+ (Important: to solve the problem pick a utility function 
+\begin_inset Formula $u(c,L)$
+\end_inset
+
+, choose smart and on the basis of what you have learned.
+ Use any utility you want but: Use the fact that consumption goods and leisure
+ are neither perfect substitutes nor perfect complements.
+ Also make sure your preferences are convex, hence the utility is a concave
+ function.
+ Finally, use a utility function that has only one parameter and call this
+ preference parameter 
+\begin_inset Formula $a$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+(Hint: you can simplify the problem to 
+\begin_inset Formula $3$
+\end_inset
+
+ variables but there is no way to do only 
+\begin_inset Formula $2$
+\end_inset
+
+, when solving this Lagrangian notice that 
+\begin_inset Formula $\lambda>0$
+\end_inset
+
+, and think of ways to obtain the solution without having to compute the
+ value of 
+\begin_inset Formula $\lambda$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Section
+Situation 2: Carol Retires
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+New Budget Constraint
+\series default
+: Write down Carol's new budget constraint after retirement.
+ Assume 
+\begin_inset Formula $R>0$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Optimization
+\series default
+: Use the Lagrangian method again to solve for Carol's optimal choices of
+ 
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, and 
+\begin_inset Formula $s$
+\end_inset
+
+ after retirement (
+\begin_inset Formula $l^{2}=0$
+\end_inset
+
+).
+ Show all steps.
+ (You can reduce the problem here to 
+\begin_inset Formula $2$
+\end_inset
+
+ variables here) Call the optimal values of situation 2, 
+\begin_inset Formula $c^{2},L^{2},s^{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Consumption Puzzle
+\series default
+: Find the range of 
+\begin_inset Formula $R$
+\end_inset
+
+ under which Carol ends up consuming more (
+\begin_inset Formula $\frac{c^{1}}{c^{2}}\leq1$
+\end_inset
+
+) after retirement than when she was working, despite 
+\begin_inset Formula $0<R\leq w\times l^{1}$
+\end_inset
+
+, where 
+\begin_inset Formula $l^{1}$
+\end_inset
+
+ is the solution to situation 1 (Hint: set the value of other other parameters
+ distinct to 
+\begin_inset Formula $R$
+\end_inset
+
+ to numbers: 
+\begin_inset Formula $w=1$
+\end_inset
+
+, 
+\begin_inset Formula $a=\frac{1}{2}$
+\end_inset
+
+, and 
+\begin_inset Formula $b=\frac{1}{2}$
+\end_inset
+
+, 
+\begin_inset Formula $T=24$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Section
+Policy Implications and Real-world Connections
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Different Choices
+\series default
+: Discuss how Carol's choices in shopping and leisure might differ before
+ and after retirement, even though her utility function remains the same.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Real-world Relevance
+\series default
+: Link the findings of this model to the referenced paper on 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Consumption vs.
+ Expenditure.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ from Aguiar and Hurst.
+ Explain how this simplified model helps us understand real-world behaviors
+ observed in the paper.
+ This is the abstract of that paper: 
+\begin_inset Quotes eld
+\end_inset
+
+Previous authors have documented a dramatic decline in food expenditures
+ at the time of retirement.
+ We show that this is matched by an equally dramatic rise in time spent
+ shopping for and preparing meals.
+ Using a novel data set that collects detailed food diaries for a large
+ cross section of U.S.
+ households, we show that neither the quality nor the quantity of food intake
+ deteriorates with retirement status.
+ We also show that unemployed households experience a decline in food expenditur
+e and food consumption commensurate with the impact of job displacement
+ on permanent income.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Your answer should be a well done one paragraph.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Answer to Case Study: The Economics of Shopping: Time, Money, and Retirement
+\end_layout
+
+\begin_layout Section*
+1.
+ Answer: Situation 1 Carol is Still Working
+\end_layout
+
+\begin_layout Standard
+1.1 The budget is 
+\begin_inset Formula $f(s)c\leq wl$
+\end_inset
+
+ and 
+\begin_inset Formula $s+l+L=T$
+\end_inset
+
+, now we require 
+\begin_inset Formula $l=T-s-L$
+\end_inset
+
+, and 
+\begin_inset Formula $f(s)c\leq w(T-s-L)$
+\end_inset
+
+, and rearranging terms
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(s)c+w(s+L)\leq wT.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1.2.
+ I pick the utility function 
+\begin_inset Formula $u(c,L)=alog(c)+(1-a)log(L)$
+\end_inset
+
+, for 
+\begin_inset Formula $a\in(0,1)$
+\end_inset
+
+, and 
+\begin_inset Formula $f(s)=(s)^{-b}$
+\end_inset
+
+ for 
+\begin_inset Formula $b\in(0,1)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The budget is 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(s)^{-b}c+w(s+L)\leq wT.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Lagrangian is: Alternative utilities: 
+\begin_inset Formula $u(c,L,s)=c^{a}+L^{a}+s^{a}$
+\end_inset
+
+, 
+\begin_inset Formula $u(c,L,s)=c^{a}+L^{a},u(c,L,s)=c^{a}L^{1-a}s$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathcal{L}(c,L,s)=alog(c)+(1-a)log(L)+\lambda(wT-(s)^{-b}c-w(s+L))
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial c}=\frac{a}{c}-\lambda[(s)^{-b}]=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial L}=\frac{(1-a)}{L}-\lambda w=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial s}=\lambda(bc(s)^{-1-b}-w)=0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial\lambda}=wT-(s+1)^{-b}c-w(s+L)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using 
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial c}$
+\end_inset
+
+ and 
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial L}$
+\end_inset
+
+ we can form the MRS condition:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{a}{1-a}\frac{L}{c}=\frac{s^{-b}}{w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From this we obtain the first equation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L=\frac{(1-a)}{a}\frac{cs^{-b}}{w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now from 
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial s}$
+\end_inset
+
+ we know that since 
+\begin_inset Formula $\lambda>0$
+\end_inset
+
+ this means that:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+bc(s)^{-1-b}-w=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This means:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c=\frac{s^{1+b}w}{b}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now we obtain a second equation from 
+\begin_inset Formula $L$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L=\frac{(1-a)}{a}\frac{s}{b}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We replace the expressions above of 
+\begin_inset Formula $c$
+\end_inset
+
+ and 
+\begin_inset Formula $L$
+\end_inset
+
+ written in terms of 
+\begin_inset Formula $s$
+\end_inset
+
+ and parameters 
+\begin_inset Formula $a,b$
+\end_inset
+
+ in the budget, and we obtain the optimal shopping:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s^{*1}=\frac{ab}{(1+ab)}T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L^{*1}=\frac{(1-a)}{(1+ab)}T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c^{*1}=\frac{\left(\frac{ab}{(1+ab)}T\right)^{1+b}w}{b}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+l^{*1}=\frac{a}{(1+ab)}T.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+2.
+ Answer: Situation 2 Carol is Retired 
+\end_layout
+
+\begin_layout Standard
+2.1.
+ The new budget is 
+\begin_inset Formula $f(s)c\leq R$
+\end_inset
+
+, 
+\begin_inset Formula $s+L=T$
+\end_inset
+
+, in this case we will let 
+\begin_inset Formula $L=T-s$
+\end_inset
+
+, and plug in the utility to form the Lagrangian.
+ 
+\end_layout
+
+\begin_layout Standard
+2.2.
+ The new lagrangian is the following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathcal{L}_{2}(c,s)=aLog(c)+(1-a)Log(T-s)+\lambda(R-s^{-b}c)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The partial derivatives of lagrangians are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}_{2}}{\partial c}=\frac{a}{c}-\lambda s^{-b}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}_{2}}{\partial s}=-\frac{(1-a)}{T-s}+\lambda bcs^{-1b}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}_{2}}{\partial\lambda}=R-cs^{-b}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Forming the MRS condition from 
+\begin_inset Formula $\frac{\partial\mathcal{L}_{2}}{\partial c}$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{\partial\mathcal{L}_{2}}{\partial s}$
+\end_inset
+
+ we obtain, the value of 
+\begin_inset Formula $s$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{ab(T-s)}{(1-a)s}=1$
+\end_inset
+
+ meaning
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $s^{*2}=\frac{ab}{(1-a+ab)}T$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Replacing this into the budget:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c^{*2}=R\left(\frac{ab}{(1-a+ab)}T\right)^{b}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L^{*2}=\frac{T}{1+ab}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.3.
+ Consumption puzzle:
+\end_layout
+
+\begin_layout Standard
+Set 
+\begin_inset Formula $w=1,a=\frac{1}{2},b=\frac{1}{2}$
+\end_inset
+
+, 
+\begin_inset Formula $T=24$
+\end_inset
+
+ compute 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{c^{*1}}{c^{*2}}=\frac{48\sqrt{\frac{3}{5}}}{5R}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This means that 
+\begin_inset Formula $\frac{c^{1}}{c^{2}}\leq1\iff\frac{48\sqrt{\frac{3}{5}}}{5R}\leq1\iff R\geq\frac{48\sqrt{\frac{3}{5}}}{5}=7.43613$
+\end_inset
+
+ and we verify that this number is below 
+\begin_inset Formula $wl^{1}=\frac{48}{5}=9.6$
+\end_inset
+
+, so there is the range of 
+\begin_inset Formula $R$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{48\sqrt{\frac{3}{5}}}{5}\leq R\leq\frac{48}{5}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For this range of 
+\begin_inset Formula $R$
+\end_inset
+
+ even if the nonlabor retirement income of Carol is lower than its labor
+ income in situation 1, Carol consumes more in situation 2.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Different Choices
+\series default
+: Discuss how Carol's choices in shopping and leisure might differ before
+ and after retirement, even though her utility function remains the same.
+ 
+\end_layout
+
+\begin_layout Standard
+In the analysis above, we observe that Carol when facing a different budget
+ and has no obligation to work but instead receives the nonlabor income
+ 
+\begin_inset Formula $R$
+\end_inset
+
+, even when it is smaller than the salary 
+\begin_inset Formula $wl^{1}$
+\end_inset
+
+, may end up with Carol consuming more of 
+\begin_inset Formula $c$
+\end_inset
+
+, of course, this happens because she now can spend more time shopping,
+ this leads to smaller prices of consumption good, allowing her to buy more
+ of 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section*
+3.
+ Answer: Policy Implications and Real-world Connections.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.1.
+ Real-world Relevance
+\series default
+: Link the findings of this model to the referenced paper on 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Life-Cycle Prices and Expenditure.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ from Aguiar and Hurst.
+ Explain how this simplified model helps us understand real-world behaviors
+ observed in the paper.
+ This is the abstract of that paper: 
+\begin_inset Quotes eld
+\end_inset
+
+Previous authors have documented a dramatic decline in food expenditures
+ at the time of retirement.
+ We show that this is matched by an equally dramatic rise in time spent
+ shopping for and preparing meals.
+ Using a novel data set that collects detailed food diaries for a large
+ cross section of U.S.
+ households, we show that neither the quality nor the quantity of food intake
+ deteriorates with retirement status.
+ We also show that unemployed households experience a decline in food expenditur
+e and food consumption commensurate with the impact of job displacement
+ on permanent income.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Our model shows that indeed, it is possible for Carol to consumer the same
+ amount or more than before, while spending less, because she spends more
+ time shopping when retired thus finding good deals and paying less.
+ We did not model home production of goods, but we modeled the shopping
+ technology that decreased as the shopping time increased.
+ The main thing that should be highlighted in the analysis is that the substitut
+ion force from not having to work and hence substituting towards more shopping
+ outweighs the impact of a lower income or income effect.
+ 
+\end_layout
+
+\end_body
+\end_document

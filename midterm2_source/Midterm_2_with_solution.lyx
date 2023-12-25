@@ -1,0 +1,775 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{graphicx}% Required for inserting images
+
+\title{The Economics of Superstars}
+\author{Victor Aguiar}
+\date{November 2023}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Case Study: The Economics of Superstars 
+\end_layout
+
+\begin_layout Section*
+Introduction
+\end_layout
+
+\begin_layout Standard
+This case study, inspired by Krueger's 2015 research on the economics of
+ the music industry, delves into the intriguing relationship between the
+ sale of physical media (CDs)/song streaming services and live performance
+ revenues (concerts).
+ The focal point is Taylor S., a superstar artist, and how market forces
+ and production constraints influence her pricing strategies for CDs/songs
+ and concert tickets.
+\end_layout
+
+\begin_layout Section*
+Part 1: Consumer Behavior Analysis
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Context:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+A consumer, a fan of Taylor S., is deciding how to spend their budget between
+ music streaming services (
+\begin_inset Formula $s$
+\end_inset
+
+) and concert tickets (
+\begin_inset Formula $c$
+\end_inset
+
+) produced by Taylor S.
+ For simplicity we will assume that the consumer can buy any fractional
+ quantity of streaming services or concerts.
+ 
+\end_layout
+
+\begin_layout Itemize
+The consumer faces a linear budget constraint with prices 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+ for CDs and 
+\begin_inset Formula $p_{c}$
+\end_inset
+
+ for concerts, and a fixed income of 
+\begin_inset Formula $M=1$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Task:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+Question 1.1.: Write down the utility function of the consumer (Taylor S's
+ fan) and their budget.
+ 
+\end_layout
+
+\begin_layout Itemize
+Question 1.2.
+ Obtain the optimal demand of CDs and concerts in terms of prices 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+,
+\begin_inset Formula $p_{c}$
+\end_inset
+
+ (call these optimal quantities 
+\begin_inset Formula $s^{*}(p_{s},p_{c})$
+\end_inset
+
+ and 
+\begin_inset Formula $c^{*}(p_{s},p_{c})$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Section*
+Part 2: Taylor S.'s Production Function
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Context:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+Taylor S.'s production functions for concerts (
+\begin_inset Formula $y_{c}$
+\end_inset
+
+) and songs (
+\begin_inset Formula $y_{s})$
+\end_inset
+
+ are given by 
+\begin_inset Formula $y_{c}=f^{c}(l)$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{s}=f^{s}(l)$
+\end_inset
+
+ with 
+\begin_inset Formula $l$
+\end_inset
+
+ representing hours of work.
+ 
+\end_layout
+
+\begin_layout Itemize
+The cost of working 
+\begin_inset Formula $l$
+\end_inset
+
+ hours is 
+\begin_inset Formula $w$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Both production functions exhibit decreasing returns to scale.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Task:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+2.1.
+ Formulate Taylor S.'s production functions with decreasing returns to scale
+ for the production of concerts and songs.
+ 
+\end_layout
+
+\begin_layout Itemize
+2.2.
+ Obtain the associated cost function for the production of songs 
+\begin_inset Formula $cost^{s}(w,y_{s})$
+\end_inset
+
+, and separately the cost function for the production of concerts 
+\begin_inset Formula $cost^{c}(w,y_{c})$
+\end_inset
+
+.
+ Notice that for simplicity we are assuming that this two production process
+ are independent of each other and that they face the same labor costs.
+ 
+\end_layout
+
+\begin_layout Section*
+Part 3: Profit Maximization Strategy
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Context:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+Taylor S.
+ operates as a monopolist in the concert market (sets 
+\begin_inset Formula $p_{c}$
+\end_inset
+
+), you can set the price of songs to 
+\begin_inset Formula $p_{s}=1$
+\end_inset
+
+.
+ A monopolist can set up the price of concerts.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Task:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+3.1 Write down explicitly Taylor S's revenue: 
+\begin_inset Formula $Revenue(p_{s},p_{c},\tau)=p_{s}\cdot\tau s^{*}(p_{s},p_{c})+p_{c}\cdot c^{*}(p_{s},p_{c})$
+\end_inset
+
+, using the results from Part 1 (
+\begin_inset Formula $c^{*}(p_{s},p_{c}),$
+\end_inset
+
+
+\begin_inset Formula $s^{*}(p_{s},p_{c})$
+\end_inset
+
+).
+ (Notice that in this market 
+\begin_inset Formula $y_{c}=c$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{s}=\tau s$
+\end_inset
+
+ where 
+\begin_inset Formula $\tau\in(0,1)$
+\end_inset
+
+ is a fraction of the streaming services songs that belong to Taylor S.,
+ and is set by a third party (Spotify)).
+ Set 
+\begin_inset Formula $p_{s}=1$
+\end_inset
+
+, and make sure your choices of utility specification and parameters are
+ such that marginal revenue decreases with the price of concerts going up,
+ if it doesn't reconsider the choices of the utility specification.
+ 
+\end_layout
+
+\begin_layout Itemize
+3.1.
+ Solve Taylor S.'s profit maximization problem using 3.1 and Part 2 (
+\begin_inset Formula $cost^{c}(w,y_{c})$
+\end_inset
+
+, 
+\begin_inset Formula $cost^{s}(w,y_{s})$
+\end_inset
+
+).
+ Set the price of songs, 
+\begin_inset Formula $p_{s}=1$
+\end_inset
+
+, set 
+\begin_inset Formula $w=1$
+\end_inset
+
+.
+ Solve for the equilibrium value of 
+\begin_inset Formula $p_{c}$
+\end_inset
+
+ (it can be in implicit form):
+\begin_inset Formula 
+\[
+\pi(\tau,p_{s},w)=\max_{p_{c}}\left(Revenue(p_{s},p_{c},\tau)-cost^{s}(w,\tau s^{*}(p_{s},p_{c}))-cost^{c}(w,c^{*}(p_{s,}p_{c}))\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Part 4: Price Dynamics and Production 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Context:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+An observed trend in the market is the rising prices of concert tickets
+ as 
+\begin_inset Formula $\tau$
+\end_inset
+
+ decreases.
+ A decrease of 
+\begin_inset Formula $\tau$
+\end_inset
+
+ captures the idea that the revenue Taylor S earns from songs decreases
+ due to the distribution systems such as Spotify.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Task:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+4.1.
+ In your model find parameters such that a decrease of 
+\begin_inset Formula $\tau$
+\end_inset
+
+ (e.g., 
+\begin_inset Formula $\tau=1$
+\end_inset
+
+ as a baseline and then move to 
+\begin_inset Formula $\tau=1/2$
+\end_inset
+
+) leads to an increase in concert ticket prices.
+ Here you are encouraged to plug-in numbers and you will need some help
+ solving a polynomial equations (scientific calculator, Wolfram Mathematica,
+ among others can do this).
+ 
+\end_layout
+
+\begin_layout Itemize
+4.2.
+ Discuss, in one paragraph, the economic rationale behind this inverse relations
+hip of 
+\begin_inset Formula $p_{c}$
+\end_inset
+
+ and 
+\begin_inset Formula $\tau$
+\end_inset
+
+, focusing on the production constraints and decreasing returns in both
+ concert and song production but also discuss the role of market power yielded
+ by Taylor S.
+ in the concert market contrasting it with her lack of power on the song
+ distribution side captured by 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Solution
+\end_layout
+
+\begin_layout Section*
+Part 1.
+ Solution
+\end_layout
+
+\begin_layout Standard
+1.1.
+ Let the utility be 
+\begin_inset Formula $u(s,c)=s^{\alpha}+c^{\alpha}$
+\end_inset
+
+ subject 
+\begin_inset Formula $p_{s}s+p_{c}c=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+1.2.
+ Choosing 
+\begin_inset Formula $\alpha=\frac{1}{2}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+We pose the lagrangian of the problem:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L=s^{\frac{1}{2}}+c^{\frac{1}{2}}+\lambda(1-p_{s}s-p_{c}c)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This lead to 
+\begin_inset Formula $s^{*}(p_{s},p_{c})=\frac{p_{c}}{p_{s}(p_{c}+p_{s})}$
+\end_inset
+
+, 
+\begin_inset Formula $c^{*}(p_{s},p_{c})=\frac{p_{s}}{p_{c}(p_{c}+p_{s})}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section*
+Part 2.
+ Solution.
+\end_layout
+
+\begin_layout Standard
+2.1.
+ The following production functions are decreasing returns:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y_{c}=l^{a_{c}}$
+\end_inset
+
+, 
+\begin_inset Formula $y_{s}=l^{a_{s}}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{s},a_{c}\in(0,1)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+2.2.
+ Cost can be obtained by inverting the prodution function so that 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cost^{c}(w,y_{c})=wf^{c,-1}(y_{c})$
+\end_inset
+
+ and 
+\begin_inset Formula $cost^{s}(w,y_{s})=wf^{s,-1}(y_{s})$
+\end_inset
+
+, for this particular specification:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cost^{c}(w,y_{c})=w(y_{c})^{1/a_{c}}$
+\end_inset
+
+, 
+\begin_inset Formula $cost^{s}(w,y_{s})=w(y_{s})^{1/a_{s}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section*
+Part 3.
+ Solution.
+\end_layout
+
+\begin_layout Standard
+3.1.
+ The revenue function is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Revenue(p_{s},p_{c},\tau)=p_{s}\cdot\tau s^{*}(p_{s},p_{c})+p_{c}\cdot c^{*}(p_{s},p_{c}),
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Revenue(p_{s},p_{c},\tau)=p_{s}\tau\frac{p_{c}}{p_{s}(p_{c}+p_{s})}+p_{c}\frac{p_{s}}{p_{c}(p_{c}+p_{s})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Revenue(p_{s},p_{c},\tau)=\tau\frac{p_{c}}{p_{c}+p_{s}}+\frac{p_{s}}{p_{c}+p_{s}}=\frac{\tau p_{c}+p_{s}}{p_{c}+p_{s}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $p_{s}=1$
+\end_inset
+
+, then:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Revenue(p_{c},\tau)=\frac{\tau p_{c}+1}{p_{c}+1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The marginal revenue is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial Revenue(p_{c},\tau)}{\partial p_{c}}=\frac{-1+\tau}{(1+p_{c})^{2}}<0.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.2.
+ Profit:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\pi(\tau,p_{c},w)=\max_{p_{c}}\left(Revenue(p_{s},p_{c},\tau)-cost^{s}(w,\tau s^{*}(p_{s},p_{c}))-cost^{c}(w,c^{*}(p_{s,}p_{c}))\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\pi(\tau,p_{c},w)=\max_{p_{c}}\left(\frac{\tau p_{c}+1}{p_{c}+1}-\left(\frac{\tau p_{c}}{(p_{c}+1)}\right)^{1/a_{s}}-\left(\frac{1}{p_{c}(p_{c}+1)}\right)^{1/a_{c}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Maximization happens when the first order conditions of profits are equal
+ to zero or equivalently when marginal revenue is equal to marginal costs:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{-1+\tau}{(1+p_{c})^{2}}=\frac{a_{c}\left(\frac{p_{c}\tau}{p_{c}+1}\right)^{\frac{1}{a_{s}}}-a_{s}(2p_{c}+1)\left(\frac{1}{p_{c}(\text{p_{c}}+1)}\right)^{\frac{1}{a_{c}}}}{a_{c}a_{s}p_{c}(p_{c}+1)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now setting 
+\begin_inset Formula $a_{c}=a_{s}=\frac{1}{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{-1+\tau}{(1+p_{c})^{2}}=\frac{2\left(p_{c}^{4}\tau^{2}-2p_{c}-1\right)}{p_{c}^{3}(\text{p_{c}}+1)^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tau-1=\frac{2\left(p_{c}^{4}\tau^{2}-2p_{c}-1\right)}{p_{c}^{4}+p_{c}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Part 4.
+ Analysis and Discussion
+\end_layout
+
+\begin_layout Standard
+4.1.
+ For 
+\begin_inset Formula $\tau=1$
+\end_inset
+
+, 
+\begin_inset Formula $p_{c}^{*}=1.39$
+\end_inset
+
+, for 
+\begin_inset Formula $\tau=1/2$
+\end_inset
+
+ , 
+\begin_inset Formula $p_{c}^{*}=1.59$
+\end_inset
+
+, the decrease of revenue due to the policies of Spotify, make the optimal
+ price of concerts go up.
+ 
+\end_layout
+
+\begin_layout Standard
+4.2.
+ Taylor S's has monopoly power in concerts, that means she can set prices
+ of concerts, however she faces decreasing marginal revenue in prices, optimalit
+y for Taylor S's profit maximization happen at concert price where marginal
+ revenue is equal to marginal cost.
+ For consumers an increase in price of concerts reduce their consumption
+ of concerts and songs due to substitution and income effects respectively.
+ But the gains in revenue of the price increase more than compensate this
+ losses for Taylor S's and she increases the prices nevertheless.
+ 
+\end_layout
+
+\end_body
+\end_document

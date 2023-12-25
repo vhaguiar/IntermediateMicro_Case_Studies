@@ -1,0 +1,1148 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{amsfonts}
+\title{Case Study: The Economics of Welfare Reform: Maternal Labor Supply and Child Academic Outcomes}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Case Study: Maternal Labor Supply and Child Academic Outcomes
+\end_layout
+
+\begin_layout Section*
+Background
+\end_layout
+
+\begin_layout Standard
+This case study focuses on how a single mother, Lisa, allocates her time
+ between work, child care, and leisure.
+ The objective is to understand how different welfare reform policies might
+ affect both Lisa's labor supply and her child's academic outcomes.
+\end_layout
+
+\begin_layout Section*
+Scenario
+\end_layout
+
+\begin_layout Standard
+Meet Lisa, a single mother in her early 30s, who is contemplating how to
+ allocate her time between work, child care, and leisure as she navigates
+ various welfare reform policies.
+ The time frame of the decision is one week (168 hours).
+\end_layout
+
+\begin_layout Section*
+Setting Up the Problem
+\end_layout
+
+\begin_layout Subsection*
+Given:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $c$
+\end_inset
+
+ = Consumption goods.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L$
+\end_inset
+
+ = Leisure time measured in hours.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $m$
+\end_inset
+
+ = Time spent on maternal care measured in hours.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $l$
+\end_inset
+
+ = Time spent on work measured in hours.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T$
+\end_inset
+
+ = Total available time in a week, such that 
+\begin_inset Formula $m+l+L=T$
+\end_inset
+
+ (typically 
+\begin_inset Formula $T=168$
+\end_inset
+
+ hours).
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $p$
+\end_inset
+
+ = Price of consumption goods, assumed constant.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $w$
+\end_inset
+
+ = Wage rate per hour.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $B$
+\end_inset
+
+ = Welfare benefits (converted to weekly income).
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\theta$
+\end_inset
+
+ = Academic outcome of the child, given by 
+\begin_inset Formula $\theta=bm$
+\end_inset
+
+ for 
+\begin_inset Formula $b\in(0,1)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Utility Function:
+\end_layout
+
+\begin_layout Standard
+Lisa's utility function 
+\begin_inset Formula $U(c,L,\theta)$
+\end_inset
+
+ captures her preferences for consumption, leisure, and her child's academic
+ outcomes.
+ The utility function is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+U(c,L,\theta)=c^{a}+L^{a}+\theta^{a}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here, 
+\begin_inset Formula $a\neq1$
+\end_inset
+
+, is a preference parameter.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Budget Constraint:
+\end_layout
+
+\begin_layout Standard
+Before Reform: Lisa consumes 
+\begin_inset Formula $c$
+\end_inset
+
+ at prices 
+\begin_inset Formula $p$
+\end_inset
+
+, given labor income 
+\begin_inset Formula $W\times l$
+\end_inset
+
+ before reform.
+\end_layout
+
+\begin_layout Standard
+After Reform: Lisa consumes 
+\begin_inset Formula $c$
+\end_inset
+
+ at prices 
+\begin_inset Formula $p$
+\end_inset
+
+, given labor income 
+\begin_inset Formula $W\times l+B$
+\end_inset
+
+ after reform.
+\end_layout
+
+\begin_layout Subsection*
+Time Constraint:
+\end_layout
+
+\begin_layout Standard
+Before and After Reform:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m+l+L=T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Questions
+\end_layout
+
+\begin_layout Section
+Without Welfare Reform
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Budget and Time Constraints
+\series default
+: Write down Lisa's budget and time constraints before welfare reform.
+ Explain the meaning of the budget.
+ Explain how 
+\begin_inset Formula $\theta$
+\end_inset
+
+ affects the utility of Lisa  
+\begin_inset Formula $U(c,L,\theta)$
+\end_inset
+
+.
+ Are the preference concave, monotone? (If yes, for what values of 
+\begin_inset Formula $a$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Optimization
+\series default
+: Use the Lagrangian method to solve for Lisa's optimal choices of 
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $m$
+\end_inset
+
+, 
+\begin_inset Formula $\theta$
+\end_inset
+
+ and 
+\begin_inset Formula $l$
+\end_inset
+
+ before and after reform.
+ You can reduce the problem to 
+\begin_inset Formula $3$
+\end_inset
+
+ variables but not less than that.
+ Given the utility function, you are asked to use, all the optimal quantities
+ will be positive.
+ Call the optimal values of this situation 1: 
+\begin_inset Formula $c^{1},L^{1},m^{1},\theta^{1},l^{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Answer:
+\end_layout
+
+\begin_layout Standard
+1.1.
+ 
+\begin_inset Formula $pc+w(m+L)\leq wT$
+\end_inset
+
+, the utility 
+\begin_inset Formula $U(c,L,\theta)=c^{a}+L^{a}+\theta^{a}$
+\end_inset
+
+ it s a CES utility function it is concave for 
+\begin_inset Formula $a\leq1$
+\end_inset
+
+ and and convex for 
+\begin_inset Formula $a>1$
+\end_inset
+
+, it is monotone as it increases its value with positive quantities of consumpti
+on of 
+\begin_inset Formula $c,L,\theta$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+1.2.
+ I write down the problem in terms of 
+\begin_inset Formula $m$
+\end_inset
+
+ replacing the equation 
+\begin_inset Formula $\theta=bm$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathcal{L}(c,L,m)=c^{a}+L^{a}+(bm)^{a}+(wT-pc-w(m+L))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We proceed to obtain the derivatives of 
+\begin_inset Formula $\mathcal{L}$
+\end_inset
+
+ with respect to 
+\begin_inset Formula $c,L,m$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial c}=ac^{-1+a}-p\lambda=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial L}=aL^{-1+a}-w\lambda=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial m}=ab(bm)^{-1+a}-w\lambda=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial\mathcal{L}}{\partial\lambda}=wT-pc-w(m+L)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now, we proceed to find optimal values of 
+\begin_inset Formula $c,L,m$
+\end_inset
+
+ in terms of the parameters of the problem, t his is done by solving the
+ system of equatios implied by the FOC of the Lagrangian.
+ 
+\end_layout
+
+\begin_layout Standard
+In this particular case, echoing what we have done in class, we write down
+ two MRS conditions the first MRS
+\begin_inset Formula $(L,c)$
+\end_inset
+
+ and MRS
+\begin_inset Formula $(m,c)$
+\end_inset
+
+, then use that to obtain 
+\begin_inset Formula $L$
+\end_inset
+
+ in terms of 
+\begin_inset Formula $c$
+\end_inset
+
+ and parameters, and 
+\begin_inset Formula $m$
+\end_inset
+
+ in terms of 
+\begin_inset Formula $c$
+\end_inset
+
+ and parameters.
+ Then we replace back in the budget constraint to obtain the optimal value
+ of 
+\begin_inset Formula $c$
+\end_inset
+
+ in terms of parameters alone and then solve the whole problem.
+\end_layout
+
+\begin_layout Standard
+The two MRS conditions are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c^{-1+a}L^{1-a}=\frac{p}{w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c^{-1+a}m(bm)^{-a}=\frac{p}{w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From this I obtain:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L=c\left(\frac{p}{w}\right)^{\frac{1}{1-a}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m=c\left(\frac{b^{a}p}{w}\right)^{\frac{1}{1-a}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then replace in the budget constraint:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Tw-c\left(p+\left(\left(\frac{p}{w}\right)^{\frac{1}{1-a}}+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{1-a}}\right)w\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Obtain the optimal quantities, as you can see LHS is full of parameters
+ and no variable remains, also I have verified that this quantities satisfy
+ the budget contraint:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c^{*1}=\frac{Tw}{p+\left(\left(\frac{p}{w}\right)^{\frac{1}{1-a}}+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{1-a}}\right)w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L^{*1}=\frac{Tw\left(\frac{p}{w}\right)^{\frac{1}{1-a}}}{p+\left(\left(\frac{p}{w}\right)^{\frac{1}{1-a}}+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{1-a}}\right)w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m^{*1}=\frac{Tw}{w+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{-1+a}}\left(p+\left(\frac{p}{w}\right)^{\frac{1}{1-a}}w\right)}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\theta^{*1}=b\frac{Tw}{w+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{-1+a}}\left(p+\left(\frac{p}{w}\right)^{\frac{1}{1-a}}w\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+With the Welfare Reform
+\end_layout
+
+\begin_layout Enumerate
+Write down Lisa's budget and time constraints after the welfare reform takes
+ place.
+ Explain the meaning of the budget.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Optimization
+\series default
+: Use the Lagrangian method to solve for Lisa's optimal choices of 
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $m$
+\end_inset
+
+, and 
+\begin_inset Formula $l$
+\end_inset
+
+ before and after reform.
+ You can reduce the problem to 
+\begin_inset Formula $3$
+\end_inset
+
+ variables but not less than that.
+ Given the utility function, you are asked to use, all the optimal quantities
+ will be positive.
+ Call the optimal values 
+\begin_inset Formula $c^{*2},L^{*2},m^{*2},\theta^{*2}$
+\end_inset
+
+ and 
+\begin_inset Formula $l^{*2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Policy Analysis
+\series default
+: Based on the results before the reform, how generous should the welfare
+ benefit 
+\begin_inset Formula $B$
+\end_inset
+
+ be in order to double the academic output ( 
+\begin_inset Formula $\theta^{*2}=2\theta^{*1})$
+\end_inset
+
+? 
+\end_layout
+
+\begin_layout Standard
+Answer:
+\end_layout
+
+\begin_layout Standard
+2.1.
+ When Lisa has 
+\begin_inset Formula $T-L-m>0$
+\end_inset
+
+ then the budget is 
+\begin_inset Formula $pc+w(m+L)\leq wT+B$
+\end_inset
+
+, when 
+\begin_inset Formula $T-L-m=0$
+\end_inset
+
+ then the budget is 
+\begin_inset Formula $pc\leq B$
+\end_inset
+
+.
+ The explanation of this budget can echo the analogous discussion in Chapter
+ 5.
+ 
+\end_layout
+
+\begin_layout Standard
+2.2.
+ 
+\begin_inset Formula $\mathcal{L}(c,L,m)=c^{a}+L^{a}+(bm)^{a}+(wT+B-pc-w(m+L))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The solution for this case is completely analogous to the first part so
+ I will omit and only write down the solutions in your case put all your
+ steps.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c^{*2}=\frac{Tw+B}{p+\left(\left(\frac{p}{w}\right)^{\frac{1}{1-a}}+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{1-a}}\right)w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L^{*2}=\frac{(Tw+B)\left(\frac{p}{w}\right)^{\frac{1}{1-a}}}{p+\left(\left(\frac{p}{w}\right)^{\frac{1}{1-a}}+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{1-a}}\right)w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m^{*2}=\frac{Tw+B}{w+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{-1+a}}\left(p+\left(\frac{p}{w}\right)^{\frac{1}{1-a}}w\right)}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We use the equations of 
+\begin_inset Formula $l^{*2}=T-L^{*2}-m^{*2}$
+\end_inset
+
+, and essentially assume that 
+\begin_inset Formula $T-L-m>0$
+\end_inset
+
+, in general the CES produces interior solutions so (for most parameters)
+ this is fine.
+ Then obtain 
+\begin_inset Formula $\theta^{*2}=bm^{*2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+l^{*2}=\frac{-B+\frac{p(B+Tw)}{p+\left(\left(\frac{p}{w}\right)^{\frac{1}{1-a}}+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{1-a}}\right)w}}{w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\theta^{*2}=\frac{b(B+Tw)}{w+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{-1+a}}\left(p+\left(\frac{p}{w}\right)^{\frac{1}{1-a}}w\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2.3.
+ The quantity of transfer needed to obtain a doubling of the academic outcome
+ is 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\theta^{*1}=b\frac{Tw}{w+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{-1+a}}\left(p+\left(\frac{p}{w}\right)^{\frac{1}{1-a}}w\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\theta^{*2}=2b\frac{Tw}{w+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{-1+a}}\left(p+\left(\frac{p}{w}\right)^{\frac{1}{1-a}}w\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{b(B+Tw)}{w+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{-1+a}}\left(p+\left(\frac{p}{w}\right)^{\frac{1}{1-a}}w\right)}=2b\frac{Tw}{w+\left(\frac{b^{a}p}{w}\right)^{\frac{1}{-1+a}}\left(p+\left(\frac{p}{w}\right)^{\frac{1}{1-a}}w\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B+Tw=2Tw
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B=Tw.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+That is the wage time the total time 
+\begin_inset Formula $T$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Policy Implications and Real-world connections.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Optimal Welfare Reform: 
+\series default
+Assume the policy-maker aims to optimize their own utility function 
+\begin_inset Formula $Z$
+\end_inset
+
+ that reflects a weighted sum of the log of household income (through labor)
+ and the log of the academic outcomes of children.
+ For simplicity set 
+\begin_inset Formula $w=1$
+\end_inset
+
+, 
+\begin_inset Formula $p=1$
+\end_inset
+
+, 
+\begin_inset Formula $a=1/2,$
+\end_inset
+
+ 
+\begin_inset Formula $b=1/2$
+\end_inset
+
+ and 
+\begin_inset Formula $T=168$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Formally, this can be represented as: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Z(B)=(l^{*2}(B))^{\delta}(\theta^{*2}(B))^{(1-\delta)}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\delta$
+\end_inset
+
+ is a weight parameter 
+\begin_inset Formula $(0\leq\delta\leq1)$
+\end_inset
+
+ that captures the policy-maker's preference between the two objectives.
+ 
+\end_layout
+
+\begin_layout Standard
+Here, 
+\begin_inset Formula $l^{*2}(B)$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta^{*}(B)$
+\end_inset
+
+ are the optimal labor supply and academic outcome, respectively, that depend
+ on 
+\begin_inset Formula $B$
+\end_inset
+
+, as solved in the earlier questions (situation 2).
+ 
+\end_layout
+
+\begin_layout Standard
+How should the policy-maker optimally choose 
+\begin_inset Formula $B$
+\end_inset
+
+ to maximize 
+\begin_inset Formula $Z$
+\end_inset
+
+? Provide the mathematical formulation and solve it.
+ Hint: This is equivalent to maximizing a univariate concave function without
+ constraints that you learned in Calculus.
+ Notice in this case there is no constraints (we are assuming away government
+ financing here).
+ Optimize for 
+\begin_inset Formula $\delta=\frac{1}{3}$
+\end_inset
+
+, explain the value, and obtain the optimal transfer under this parameter
+ (it should be a positive quantity 
+\begin_inset Formula $B>0$
+\end_inset
+
+), explain the economical logic on this result.
+ 
+\end_layout
+
+\begin_layout Standard
+Answer:
+\end_layout
+
+\begin_layout Standard
+Replacing all the parameters we obtain:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+l^{*2}(B)=\frac{2(168+B)}{5}-B
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\theta^{*2}(B)=\frac{168+B}{10}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then we obtain for 
+\begin_inset Formula $\delta=\frac{1}{3}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Z(B)=\frac{1}{5}(336-3B)^{\frac{1}{3}}(84+\frac{B}{2})^{2/3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To maximize it we obtain its first derivative with respect to 
+\begin_inset Formula $B$
+\end_inset
+
+, and verify it is a concave function then:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial Z}{\partial B}=\frac{56-3B}{5(672-6B)^{\frac{2}{3}}(168+B)^{\frac{1}{3}}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B=\frac{56}{3}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+2.
+ Real-world Relevance: 
+\series default
+Link the findings of this model to the referenced paper on 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Designing Cash Transfers in the Presence of Children’s Human Capital Formation.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ from Mullins.
+ Explain how this simplified model helps us understand implications about
+ the optimal welfare reform reported in this paper.
+ 
+\end_layout
+
+\begin_layout Standard
+This is the abstract of that paper: 
+\begin_inset Quotes eld
+\end_inset
+
+This paper finds that accounting for the human capital development of children
+ has a quantitatively large effect on the true costs and benefits of providing
+ cash assistance to single mothers in the United States.
+ A dynamic model of work, welfare participation, and parental investment
+ in children introduces a formal apparatus for calculating costs and benefits
+ when individuals respond to incentives.
+ The model provides a tractable outcome equation in which a policy’s effect
+ on child skills can be understood through its impact on two economic resources
+ in the household – time and money – and the share of each resource as factors
+ in the production of skills.
+ These key causal parameters are cleanly identified by policy variation
+ through the 1990s.
+ The model also admits simple and interpretable formulae for optimal nonlinear
+ transfers in the style of Mirrlees (1971), with novel features arising
+ when child skill formation is accounted for.
+ Using a broadly conservative empirical strategy, estimates imply that optimal
+ transfers are about 20% more generous than the US benchmark, and shaped
+ very differently.
+ In contrast to current policies, the optimal policy discourages labor supply
+ at the bottom of the income distribution due to the costly estimated impacts
+ of work on child development.
+ The finding underscores the importance of reconciling results in the literature
+ on the developmental effects of maternal employment.
+ Finally, a counterfactual model exercise suggests that changes to the welfare
+ and tax environment after 1996 had negative average effects both on maternal
+ welfare and child skill outcomes, with a significant degree of redistribution
+ across latent dimensions.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This part I will leave it for you to think but a good answer will be concise
+ yet able to convey your knowledge of the class, and the understanding of
+ the case.
+ 
+\end_layout
+
+\end_body
+\end_document

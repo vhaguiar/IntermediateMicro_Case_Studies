@@ -1,0 +1,224 @@
+%% LyX 2.3.6.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass{article}
+\usepackage[latin9]{inputenc}
+\usepackage{amstext}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{graphicx}% Required for inserting images
+
+\title{The Economics of Superstars}
+\author{Victor Aguiar}
+\date{November 2023}
+
+\makeatother
+
+\begin{document}
+\title{Case Study: The Economics of Superstars }
+\maketitle
+
+\section*{Introduction}
+
+This case study, inspired by Krueger's 2015 research on the economics
+of the music industry, delves into the intriguing relationship between
+the sale of physical media (CDs) and live performance revenues (concerts).
+The focal point is Taylor S., a superstar artist, and how market forces
+and production constraints influence her pricing strategies for CDs
+and concert tickets.
+
+\section*{Part 1: Consumer Behavior Analysis}
+
+\textbf{Context:} 
+\begin{itemize}
+\item A consumer, a fan of Taylor S., is deciding how to spend their budget
+between music streaming services ($s$) and concert tickets ($c$)
+produced by Taylor S. For simplicity we will assume that the consumer
+can buy any fractional quantity of streaming services or concerts. 
+\item The consumer faces a linear budget constraint with prices $p_{s}$
+for CDs and $p_{c}$ for concerts, and a fixed income of $M=1$. 
+\end{itemize}
+\textbf{Task:} 
+\begin{itemize}
+\item Question 1.1.: Write down the utility function of the consumer (Taylor
+S's fan) and their budget. 
+\item Question 1.2. Obtain the optimal demand of CDs and concerts in terms
+of prices $p_{s}$,$p_{c}$ (call these optimal quantities $s^{*}(p_{s},p_{c})$
+and $c^{*}(p_{s},p_{c})$). 
+\end{itemize}
+
+\section*{Part 2: Taylor S.'s Production Function}
+
+\textbf{Context:} 
+\begin{itemize}
+\item Taylor S.'s production functions for concerts ($y_{c}$) and songs
+($y_{s})$ are given by $y_{c}=f^{c}(l)$ and $y_{s}=f^{s}(l)$ with
+$l$ representing hours of work. 
+\item The cost of working $l$ hours is $w$. 
+\item Both production functions exhibit decreasing returns to scale. 
+\end{itemize}
+\textbf{Task:} 
+\begin{itemize}
+\item 2.1. Formulate Taylor S.'s production functions with decreasing returns
+to scale for the production of concerts and songs. 
+\item 2.2. Obtain the associated cost function for the production of songs
+$cost^{s}(w,y_{s})$, and separately the cost function for the production
+of concerts $cost^{c}(w,y_{c})$. Notice that for simplicity we are
+assuming that this two production process are independent of each
+other and that they face the same labor costs. 
+\end{itemize}
+
+\section*{Part 3: Profit Maximization Strategy}
+
+\textbf{Context:} 
+\begin{itemize}
+\item Taylor S. operates as a monopolist in the concert market (sets $p_{c}$),
+you can set the price of songs to $p_{s}=1$. A monopolist can set
+up the price of concerts.
+\end{itemize}
+\textbf{Task:} 
+\begin{itemize}
+\item 3.1 Write down explicitly Taylor S's revenue: $Revenue(p_{s},p_{c},\tau)=p_{s}\cdot\tau s^{*}(p_{s},p_{c})+p_{c}\cdot c^{*}(p_{s},p_{c})$,
+using the results from Part 1 ($c^{*}(p_{s},p_{c}),$$s^{*}(p_{s},p_{c})$).
+(Notice that in this market $y_{c}=c$ and $y_{s}=\tau s$ where $\tau\in(0,1)$
+is a fraction of the streaming services songs that belong to Taylor
+S., and is set by a third party (Spotify)). Set $p_{s}=1$, and make
+sure your choices of utility specification and parameters are such
+that marginal revenue decreases with the price of concerts going up,
+if it doesn't reconsider the choices of the utility specification. 
+\item 3.1. Solve Taylor S.'s profit maximization problem using 3.1 and Part
+2 ($cost^{c}(w,y_{c})$, $cost^{s}(w,y_{s})$). Set the price of songs,
+$p_{s}=1$, set $w=1$. Solve for the equilibrium value of $p_{c}$
+(it can be in implicit form):
+\[
+\pi(\tau,p_{s},w)=\max_{p_{c}}\left(Revenue(p_{s},p_{c},\tau)-cost^{s}(w,\tau s)-cost^{c}(w,c^{*}(p_{s,}p_{c}))\right)
+\]
+\end{itemize}
+
+\section*{Part 4: Price Dynamics and Production }
+
+\textbf{Context:} 
+\begin{itemize}
+\item An observed trend in the market is the rising prices of concert tickets
+as $\tau$ decreases. A decrease of $\tau$ captures the idea that
+the revenue Taylor S earns from songs decreases due to the distribution
+systems such as Spotify. 
+\end{itemize}
+\textbf{Task:} 
+\begin{itemize}
+\item 4.1. In your model find parameters such that a decrease of $\tau$
+(e.g., $\tau=1$ as a baseline and then move to $\tau=1/2$) leads
+to an increase in concert ticket prices. Here you are encouraged to
+plug-in numbers and you will need some help solving a polynomial equations
+(scientific calculator, Wolfram Mathematica, among others can do this). 
+\item 4.2. Discuss, in one paragraph, the economic rationale behind this
+inverse relationship of $p_{c}$ and $\tau$, focusing on the production
+constraints and decreasing returns in both concert and song production
+but also discuss the role of market power yielded by Taylor S. in
+the concert market contrasting it with her lack of power on the song
+distribution side captured by $\tau$. 
+\end{itemize}
+
+\part*{Solution}
+
+\section*{Part 1. Solution}
+
+1.1. Let the utility be $u(s,c)=s^{\alpha}+c^{\alpha}$ subject $p_{s}s+p_{c}c=1$.
+
+1.2. Choosing $\alpha=\frac{1}{2}$: 
+
+We pose the lagrangian of the problem:
+
+\[
+L=s^{\frac{1}{2}}+c^{\frac{1}{2}}+\lambda(1-p_{s}s-p_{c}c)
+\]
+
+This lead to $s^{*}(p_{s},p_{c})=\frac{p_{c}}{p_{s}(p_{c}+p_{s})}$,
+$c^{*}(p_{s},p_{c})=\frac{p_{s}}{p_{c}(p_{c}+p_{s})}$. 
+
+\section*{Part 2. Solution.}
+
+2.1. The following production functions are decreasing returns:
+
+$y_{c}=l^{a_{c}}$, $y_{s}=l^{a_{s}}$, $a_{s},a_{c}\in(0,1)$. 
+
+2.2. Cost can be obtained by inverting the prodution function so that 
+
+$cost^{c}(w,y_{c})=wf^{c,-1}(y_{c})$ and $cost^{s}(w,y_{s})=wf^{s,-1}(y_{s})$,
+for this particular specification:
+
+$cost^{c}(w,y_{c})=w(y_{c})^{1/a_{c}}$, $cost^{s}(w,y_{s})=w(y_{s})^{1/a_{s}}$. 
+
+
+\section*{Part 3. Solution.}
+
+3.1. The revenue function is:
+
+\[
+Revenue(p_{s},p_{c},\tau)=p_{s}\cdot\tau s^{*}(p_{s},p_{c})+p_{c}\cdot c^{*}(p_{s},p_{c}),
+\]
+
+\[
+Revenue(p_{s},p_{c},\tau)=p_{s}\tau\frac{p_{c}}{p_{s}(p_{c}+p_{s})}+p_{c}\frac{p_{s}}{p_{c}(p_{c}+p_{s})}
+\]
+
+\[
+Revenue(p_{s},p_{c},\tau)=\tau\frac{p_{c}}{p_{c}+p_{s}}+\frac{p_{s}}{p_{c}+p_{s}}=\frac{\tau p_{c}+p_{s}}{p_{c}+p_{s}}
+\]
+
+Let $p_{s}=1$, then:
+
+\[
+Revenue(p_{c},\tau)=\frac{\tau p_{c}+1}{p_{c}+1}
+\]
+
+The marginal revenue is:
+
+\[
+\frac{\partial Revenue(p_{c},\tau)}{\partial p_{c}}=\frac{-1+\tau}{(1+p_{c})^{2}}<0.
+\]
+
+3.2. Profit:
+
+\[
+\pi(\tau,p_{s},w)=\max_{p_{c}}\left(Revenue(p_{s},p_{c},\tau)-cost^{s}(w,\tau s)-cost^{c}(w,c^{*}(p_{s,}p_{c}))\right)
+\]
+
+\[
+\pi(\tau,p_{s},w)=\max_{p_{c}}\left(\frac{\tau p_{c}+1}{p_{c}+1}-\left(\frac{\tau p_{c}}{(p_{c}+1)}\right)^{1/a_{s}}-\left(\frac{1}{p_{c}(p_{c}+1)}\right)^{1/a_{c}}\right)
+\]
+
+Maximization happens when the first order conditions of profits are
+equal to zero or equivalently when marginal revenue is equal to marginal
+costs:
+
+\[
+\frac{-1+\tau}{(1+p_{c})^{2}}=\frac{a_{c}\left(\frac{p_{c}\tau}{p_{c}+1}\right)^{\frac{1}{a_{s}}}-a_{s}(2p_{c}+1)\left(\frac{1}{p_{c}(\text{\ensuremath{p_{c}}}+1)}\right)^{\frac{1}{a_{c}}}}{a_{c}a_{s}p_{c}(p_{c}+1)}
+\]
+
+Now setting $a_{c}=a_{s}=\frac{1}{2}$:
+
+\[
+\frac{-1+\tau}{(1+p_{c})^{2}}=\frac{2\left(p_{c}^{4}\tau^{2}-2p_{c}-1\right)}{p_{c}^{3}(\text{\ensuremath{p_{c}}}+1)^{3}}
+\]
+
+\[
+\tau-1=\frac{2\left(p_{c}^{4}\tau^{2}-2p_{c}-1\right)}{p_{c}^{4}+p_{c}}
+\]
+
+
+\part*{Part 4. Analysis and Discussion}
+
+4.1. For $\tau=1$, $p_{c}^{*}=1.39$, for $\tau=1/2$ , $p_{c}^{*}=1.59$,
+the decrease of revenue due to the policies of Spotify, make the optimal
+price of concerts go up. 
+
+4.2. Taylor S's has monopoly power in concerts, that means she can
+set prices of concerts, however she faces decreasing marginal revenue
+in prices, optimality for Taylor S's profit maximization happen at
+concert price where marginal revenue is equal to marginal cost. For
+consumers an increase in price of concerts reduce their consumption
+of concerts and songs due to substitution and income effects respectively.
+But the gains in revenue of the price increase more than compensate
+this losses for Taylor S's and she increases the prices nevertheless. 
+\end{document}

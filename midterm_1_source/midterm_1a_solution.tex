@@ -1,0 +1,300 @@
+%% LyX 2.3.6.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt]{article}
+\usepackage[latin9]{inputenc}
+\begin{document}
+\title{Case Study: The Economics of Shopping: Time, Money, and Retirement}
+\maketitle
+
+\section*{Background}
+
+This case study explores how an individual, Carol, allocates her time
+between leisure, work, and shopping. The focus is on understanding
+why Carol might consume more after retirement despite a potential
+reduction in total income.
+
+\section*{Scenario}
+
+Meet Carol, a woman in her late 50s who is contemplating how to allocate
+her time between work, leisure, and shopping as she approaches retirement.
+The time frame of the decision is one day ($24$ hours).
+
+\section*{Setting Up the Problem}
+
+\textbf{Given:}
+\begin{itemize}
+\item $c$ = Consumption goods.
+\item $L$ = Leisure time measured in hours. 
+\item $s$ = Time spent on shopping measured in hours. 
+\item $l$ = Time spent on work measured in hours. 
+\item $T$ = Total available time in a day, such that $s+l+L=T$ (typically
+$T=24$ hours). 
+\item $p$ = Price of consumption goods, determined by $p=f(s)$, such that
+(its derivative) $f'(s)<0$ capturing the idea that as more time is
+spent shopping the better deals can the consumer obtain. We require
+that even if the consumer spends all the time shopping the price is
+positive ($f(T)>0$). 
+\item $w$ = Wage rate per hour. 
+\item $R$ = Retirement income (converted to daily income). 
+\end{itemize}
+\textbf{Budget Constraint:}
+
+Still Working: Carol consumes $c$ at prices $f(s)$, given labor
+income $w\times l$ before retirement. 
+
+Carol retires: Carol consumes $c$ at prices $f(s)$, given retirement
+income $R$ after retirement. The quantity of retirement she receives
+does not depends on savings so its fully non labor income.
+
+\textbf{Time Constraint:}
+
+Still working:
+
+\[
+s+l+L=T.
+\]
+
+Carol retires:
+
+\[
+s+L=T.
+\]
+
+
+\section*{Questions}
+
+\section{Situation 1: Carol is Still Working}
+\begin{enumerate}
+\item \textbf{Budget and Time Constraints}: Write down Carol's budget and
+time constraints when she is still working. Assume $R=0$ in this
+case. Hint: use $f(s)=(s)^{-b}$ for $b>0$. Explain in few sentences
+the meaning of the shopping technology $f(s)$ in terms of the parameter
+$b$ and interpret its economic meaning. 
+\item \textbf{Optimization}: Use the Lagrangian method to solve for Carol's
+optimal choices of $c$, $L$, $l$ and $s$ when she is working Show
+all steps. Call the optimal value of this problem: $c^{1},L^{1},l^{1}$
+and $s^{1}$. (Important: to solve the problem pick a utility function
+$u(c,L)$, choose smart and on the basis of what you have learned.
+Use any utility you want but: Use the fact that consumption goods
+and leisure are neither perfect substitutes nor perfect complements.
+Also make sure your preferences are convex, hence the utility is a
+concave function. Finally, use a utility function that has only one
+parameter and call this preference parameter $a$). 
+\end{enumerate}
+(Hint: you can simplify the problem to $3$ variables but there is
+no way to do only $2$, when solving this Lagrangian notice that $\lambda>0$,
+and think of ways to obtain the solution without having to compute
+the value of $\lambda$). 
+
+\section{Situation 2: Carol Retires}
+\begin{enumerate}
+\item \textbf{New Budget Constraint}: Write down Carol's new budget constraint
+after retirement. Assume $R>0$. 
+\item \textbf{Optimization}: Use the Lagrangian method again to solve for
+Carol's optimal choices of $c$, $L$, and $s$ after retirement ($l^{2}=0$).
+Show all steps. (You can reduce the problem here to $2$ variables
+here) Call the optimal values of situation 2, $c^{2},L^{2},s^{2}$. 
+\item \textbf{Consumption Puzzle}: Find the range of $R$ under which Carol
+ends up consuming more ($\frac{c^{1}}{c^{2}}\leq1$) after retirement
+than when she was working, despite $0<R\leq w\times l^{1}$, where
+$l^{1}$ is the solution to situation 1 (Hint: set the value of other
+other parameters distinct to $R$ to numbers: $w=1$, $a=\frac{1}{2}$,
+and $b=\frac{1}{2}$, $T=24$). 
+\end{enumerate}
+
+\section{Policy Implications and Real-world Connections}
+\begin{enumerate}
+\item \textbf{Different Choices}: Discuss how Carol's choices in shopping
+and leisure might differ before and after retirement, even though
+her utility function remains the same. 
+\item \textbf{Real-world Relevance}: Link the findings of this model to
+the referenced paper on "Life-Cycle Prices and Expenditure." from
+Aguiar and Hurst. Explain how this simplified model helps us understand
+real-world behaviors observed in the paper. This is the abstract of
+that paper: ``Previous authors have documented a dramatic decline
+in food expenditures at the time of retirement. We show that this
+is matched by an equally dramatic rise in time spent shopping for
+and preparing meals. Using a novel data set that collects detailed
+food diaries for a large cross section of U.S. households, we show
+that neither the quality nor the quantity of food intake deteriorates
+with retirement status. We also show that unemployed households experience
+a decline in food expenditure and food consumption commensurate with
+the impact of job displacement on permanent income.''
+\end{enumerate}
+Your answer should be a well done one paragraph.
+
+\pagebreak{}
+
+\part*{Answer to Case Study: The Economics of Shopping: Time, Money, and
+Retirement}
+
+\section*{1. Answer: Situation 1 Carol is Still Working}
+
+1.1 The budget is $f(s)c\leq wl$ and $s+l+L=T$, now we require $l=T-s-L$,
+and $f(s)c\leq w(T-s-L)$, and rearranging terms
+
+\[
+f(s)c+w(s+L)\leq wT.
+\]
+
+1.2. I pick the utility function $u(c,L)=alog(c)+(1-a)log(L)$, for
+$a\in(0,1)$, and $f(s)=(s+1)^{-b}$ for $b\in(0,1)$. 
+
+The budget is 
+
+\[
+(s+1)^{-b}c+w(s+L)\leq wT.
+\]
+
+The Lagrangian is:
+
+\[
+\mathcal{L}(c,L,s)=alog(c)+(1-a)log(L)+\lambda(wT-(s+1)^{-b}c-w(s+L))
+\]
+
+$\frac{\partial\mathcal{L}}{\partial c}=\frac{a}{c}-\lambda[(s)^{-b}]=0$
+
+$\frac{\partial\mathcal{L}}{\partial L}=\frac{(1-a)}{L}-\lambda w=0$
+
+$\frac{\partial\mathcal{L}}{\partial s}=\lambda(bc(s)^{-1-b}-w)=0$
+
+$\frac{\partial\mathcal{L}}{\partial\lambda}=wT-(s+1)^{-b}c-w(s+L)=0$
+
+Using $\frac{\partial\mathcal{L}}{\partial c}$ and $\frac{\partial\mathcal{L}}{\partial L}$
+we can form the MRS condition:
+
+\[
+\frac{a}{1-a}\frac{L}{c}=\frac{s^{-b}}{w}
+\]
+
+From this we obtain the first equation:
+
+\[
+L=\frac{(1-a)}{a}\frac{cs^{-b}}{w}
+\]
+
+Now from $\frac{\partial\mathcal{L}}{\partial s}$ we know that since
+$\lambda>0$ this means that:
+
+\[
+bc(s)^{-1-b}-w=0
+\]
+
+This means:
+
+\[
+c=\frac{s^{1+b}w}{b}.
+\]
+
+Now we obtain a second equation from $L$:
+
+\[
+L=\frac{(1-a)}{a}\frac{s}{b}.
+\]
+
+We replace the expressions above of $c$ and $L$ written in terms
+of $s$ and parameters $a,b$ in the budget, and we obtain the optimal
+shopping:
+
+\[
+s^{1}=\frac{ab}{(1+ab)}T
+\]
+
+\[
+L^{1}=\frac{(1-a)}{(1+ab)}T
+\]
+
+\[
+c^{1}=\frac{\left(\frac{ab}{(1+ab)}T\right)^{1+b}w}{b}
+\]
+
+\[
+l^{1}=\frac{a}{(1+ab)}T.
+\]
+
+
+\section*{2. Answer: Situation 2 Carol is Retired }
+
+2.1. The new budget is $f(s)c\leq R$, $s+L=T$, in this case we will
+let $L=T-s$, and plug in the utility to form the Lagrangian. 
+
+2.2. The new lagrangian is the following:
+
+\[
+\mathcal{L}_{2}(c,s)=aLog(c)+(1-a)Log(T-s)+\lambda(R-s^{-b}c)
+\]
+
+The partial derivatives of lagrangians are:
+
+$\frac{\partial\mathcal{L}_{2}}{\partial c}=\frac{a}{c}-\lambda s^{-b}=0$
+
+$\frac{\partial\mathcal{L}_{2}}{\partial s}=-\frac{(1-a)}{T-s}+\lambda bcs^{-1b}=0$
+
+$\frac{\partial\mathcal{L}_{2}}{\partial\lambda}=R-cs^{-b}=0$
+
+Forming the MRS condition from $\frac{\partial\mathcal{L}_{2}}{\partial c}$,
+$\frac{\partial\mathcal{L}_{2}}{\partial s}$ we obtain, the value
+of $s$:
+
+$\frac{ab(T-s)}{(1-a)s}=1$ meaning $s^{2}=\frac{ab}{(1-a+ab)}T$. 
+
+Replacing this into the budget:
+
+$c^{2}=R\left(\frac{ab}{(1-a+ab)}T\right)^{b}$. 
+
+$L^{2}=\frac{T}{1+ab}.$
+
+2.3. Consumption puzzle:
+
+Set $w=1,a=\frac{1}{2},b=\frac{1}{2}$, $T=24$ compute 
+
+\[
+\frac{c^{1}}{c^{2}}=\frac{48\sqrt{\frac{3}{5}}}{5R}
+\]
+
+This means that $\frac{c^{1}}{c^{2}}\leq1\iff\frac{48\sqrt{\frac{3}{5}}}{5R}\leq1\iff R\geq\frac{48\sqrt{\frac{3}{5}}}{5}=7.43613$
+and we verify that this number is below $wl^{1}=\frac{48}{5}=9.6$,
+so there is the range of $R$
+
+\[
+\frac{48\sqrt{\frac{3}{5}}}{5}\leq R\leq\frac{48}{5}.
+\]
+
+For this range of $R$ even if the nonlabor retirement income of Carol
+is lower than its labor income in situation 1, Carol consumes more
+in situation 2. 
+
+\section*{3. Answer: Policy Implications and Real-world Connections. }
+
+\textbf{3.1 Different Choices}: Discuss how Carol's choices in shopping
+and leisure might differ before and after retirement, even though
+her utility function remains the same. 
+
+In the analysis above, we observe that Carol when facing a different
+budget and has no obligation to work but instead receives the nonlabor
+income $R$, even when it is smaller than the salary $wl^{1}$, may
+end up with Carol consuming more of $c$, of course, this happens
+because she now can spend more time shopping, this leads to smaller
+prices of consumption good, allowing her to buy more of $c$. 
+
+\textbf{3.2. Real-world Relevance}: Link the findings of this model
+to the referenced paper on "Life-Cycle Prices and Expenditure."
+from Aguiar and Hurst. Explain how this simplified model helps us
+understand real-world behaviors observed in the paper. This is the
+abstract of that paper: ``Previous authors have documented a dramatic
+decline in food expenditures at the time of retirement. We show that
+this is matched by an equally dramatic rise in time spent shopping
+for and preparing meals. Using a novel data set that collects detailed
+food diaries for a large cross section of U.S. households, we show
+that neither the quality nor the quantity of food intake deteriorates
+with retirement status. We also show that unemployed households experience
+a decline in food expenditure and food consumption commensurate with
+the impact of job displacement on permanent income.''
+
+Our model shows that indeed, it is possible for Carol to consumer
+the same amount or more than before, while spending less, because
+she spends more time shopping when retired thus finding good deals
+and paying less. We did not model home production of goods, but we
+modeled the shopping technology that decreased as the shopping time
+increased. 
+\end{document}

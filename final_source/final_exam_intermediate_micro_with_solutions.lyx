@@ -1,0 +1,1057 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\title{Gravity Model of Trade: Case Study of Arabasta and Baltigo}
+\author{Victor H. Aguiar}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Final Exam: Case Study on Determinants of Bilateral Trade
+\end_layout
+
+\begin_layout Section*
+Introduction
+\end_layout
+
+\begin_layout Standard
+The Law of Gravity of Trade is a fundamental principle in international
+ economics, positing that trade between two countries is directly proportional
+ to their economic size, often measured by GDP, and inversely proportional
+ to the geographic distance between them.
+ This model, akin to Newton's law of gravity, suggests that larger economies
+ have a greater gravitational pull in trade relationships, while distance
+ acts as a trade barrier, diminishing trade interactions.
+ This case study aims to apply this principle in a simplified scenario involving
+ two fictional countries, Arabasta and Baltigo, to illustrate the microfoundatio
+ns of the law of gravity of trade.
+\end_layout
+
+\begin_layout Section*
+Part 1: Consumption Problem for Arabasta
+\end_layout
+
+\begin_layout Standard
+We want to model the consumption of domestic and foreign products for the
+ country of Arabasta.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Model Setup:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+There are 2 countries, Arabasta (a) and Baltigo (b).
+ Goods are differentiated by their country of origin.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $c_{b,a}$
+\end_inset
+
+ denotes the consumption in Arabasta of the good produced in Baltigo, and
+ 
+\begin_inset Formula $c_{a,a}$
+\end_inset
+
+ represents local consumption in Arabasta of the good produced in Arabasta.
+ 
+\end_layout
+
+\begin_layout Itemize
+Arabasta total revenue for selling his good both to itself and to Baltigo
+ is 
+\begin_inset Formula $y_{a}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+The prices faced by Arabasta for the good originating in Baltigo is 
+\begin_inset Formula $p_{b,a}$
+\end_inset
+
+, and the price for the good originating in Arabasta is 
+\begin_inset Formula $p_{a,a}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+
+\emph on
+Task for the Student
+\emph default
+ 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+1.1.
+ Write down a utility function for the representative consumer of Arabasta,
+ 
+\begin_inset Formula $u_{a}(c_{a,a},c_{b,a})$
+\end_inset
+
+, and make sure this utility has one parameter 
+\begin_inset Formula $\sigma$
+\end_inset
+
+.
+ Also write down the budget constraint faced by Arabasta.
+ 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+1.2.
+ Write down the Lagrangian associated with the constrainted maximization
+ of the utility and budget you wrote down before and obtain: the consumption
+ levels at Arabasta, 
+\begin_inset Formula $c_{b,a}^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $c_{a,a}^{*}$
+\end_inset
+
+.
+ (Notice that by carefully relabeling this optimal consumptions to 
+\begin_inset Formula $c_{a,b}^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $c_{b,b}^{*}$
+\end_inset
+
+ you have obtained as well the Baltigo's optimal consumption with the exact
+ same utility parameter 
+\begin_inset Formula $\sigma$
+\end_inset
+
+.).
+\end_layout
+
+\begin_layout Section*
+Part 2: Market Clearing Conditions
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Equilibrium Conditions:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+For market equilibrium: the total self-exports (
+\begin_inset Formula $p_{a,a}$
+\end_inset
+
+ times consumption in Arabasta of Arabasta good), and the export to Baltigo
+ (
+\begin_inset Formula $p_{a,b}$
+\end_inset
+
+ times consumption in Baltigo of Arabasta good) must equal Arabasta's revenue,
+ 
+\begin_inset Formula $y_{a}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+The analogous case holds for Baltigo revenue 
+\begin_inset Formula $y_{b}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Price Formulation:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+Prices 
+\begin_inset Formula $p_{a,j}$
+\end_inset
+
+ depend on base prices at origin, 
+\begin_inset Formula $p_{a}$
+\end_inset
+
+, and trade costs, 
+\begin_inset Formula $t_{a,j}$
+\end_inset
+
+ for 
+\begin_inset Formula $j\in\{a,b\}$
+\end_inset
+
+: 
+\begin_inset Formula $p_{a,b}=p_{a}t_{a,b}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_{a,a}=p_{a}t_{a,a}$
+\end_inset
+
+.
+ Note that 
+\begin_inset Formula $t_{a,b}$
+\end_inset
+
+ reflects the trade cost due to distance and other barriers.
+ We restrict that 
+\begin_inset Formula $t_{a,a}=1$
+\end_inset
+
+, so we can simplify it in the analysis, we also assume 
+\begin_inset Formula $t_{a,b}>1$
+\end_inset
+
+ and 
+\begin_inset Formula $t_{a,b}=t_{b,a}$
+\end_inset
+
+.
+ In addition, we will assume that the only trade barrier is distance between
+ 
+\begin_inset Formula $a,b$
+\end_inset
+
+, 
+\begin_inset Formula $d_{a,b}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Trade Costs and Consumption:
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+The cost of importing goods from Baltigo to Arabasta increases with distance,
+ affecting the prices and, consequently, the consumption patterns.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+
+\emph on
+Task for the Student
+\emph default
+ 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2.1.
+ Write down the equilibrium condition that equates Arabasta's revenue 
+\begin_inset Formula $y_{a}$
+\end_inset
+
+ to its exports as described above.
+ Taking as given 
+\begin_inset Formula $t_{a,a},t_{a,b}$
+\end_inset
+
+, and using the optimal demands of Part 1 
+\begin_inset Formula $c_{a,a}^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $c_{a,b}^{*}$
+\end_inset
+
+ find the equilibrium value of the good in Arabasta, 
+\begin_inset Formula $p_{a}^{*}$
+\end_inset
+
+, using the market equilibrium conditions.
+ Make sure that this price is a function of 
+\begin_inset Formula $y_{a}$
+\end_inset
+
+ and 
+\begin_inset Formula $t_{a,b}$
+\end_inset
+
+ as well as the parameter of preferences 
+\begin_inset Formula $\sigma$
+\end_inset
+
+.
+ (Hint: You have to normalize 
+\begin_inset Formula $p_{b}^{*}$
+\end_inset
+
+, e.g., 
+\begin_inset Formula $p_{b}^{*}=1$
+\end_inset
+
+.
+ Here we need an explicit solution and, if you must, choose a number for
+ your preference parameter.
+ Note that there is only one solution to this problem, if you are obtaining
+ more than one solution one of the possible solutions may not satisfy that
+ 
+\begin_inset Formula $p_{a}>0$
+\end_inset
+
+.
+ ).
+ 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2.2.
+ Write down a production function, with a single parameter 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, with non increasing returns for transporting goods and services a certain
+ distance 
+\begin_inset Formula $d_{a,b}=f(k)$
+\end_inset
+
+, using 
+\begin_inset Formula $k$
+\end_inset
+
+ units of capital (ships).
+ The rental rate (price of 
+\begin_inset Formula $k$
+\end_inset
+
+) is 
+\begin_inset Formula $r=1$
+\end_inset
+
+.
+ For simplicity, we assume here that neither Arabasta or Baltigo own this
+ transport company so the profits of this firm do not enter their budgets.
+ Find a cost function 
+\begin_inset Formula $c(d_{a,b})$
+\end_inset
+
+ associated with the transportation production function.
+ Write down an equation for bilateral trade barriers 
+\begin_inset Formula $t_{a,b}=c(d_{a,b})+1$
+\end_inset
+
+.
+ Make sure to verify that the larger the distance the larger the trade barrier,
+ make sure that when the distance is zero then 
+\begin_inset Formula $t_{a,b}=f(0)=1$
+\end_inset
+
+.
+ Verify, using derivation, that as distance grows so does the trade barrier.
+ 
+\end_layout
+
+\begin_layout Section*
+Part 3: Comparative Statics Analysis in Equilibrium
+\end_layout
+
+\begin_layout Standard
+ 
+\end_layout
+
+\begin_layout Itemize
+As the distance between Arabasta and Baltigo increases, the trade cost 
+\begin_inset Formula $t_{ab}$
+\end_inset
+
+ rises, leading to a decrease imports.
+\end_layout
+
+\begin_layout Itemize
+Bilateral trade is more substantial when both countries are economically
+ larger, even if the distance remains constant.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Task for the Student
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+3.1 Once you have obtained the prices 
+\begin_inset Formula $p_{a}^{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $p_{b}^{*}=1$
+\end_inset
+
+ from the good of Arabasta and Baltigo: Obtain the consumptions in Arabasta
+ of Baligo's good in equilibrium, 
+\begin_inset Formula $c_{b,a}^{**}$
+\end_inset
+
+ (Hint: you can do this by pluggin in 
+\begin_inset Formula $p_{a}^{*},p_{b}^{*}$
+\end_inset
+
+=1 from Part 2 into the expression you obtained in Part 1 for 
+\begin_inset Formula $c_{a,b}^{*}$
+\end_inset
+
+).
+ Now, do the same above, to obtain the nominal imports of Baltigo's good
+ in Arabasta 
+\begin_inset Formula $x_{b,a}^{**}=p_{b,a}^{*}c_{b,a}^{**}$
+\end_inset
+
+ (make sure to replace 
+\begin_inset Formula $p_{ab}^{*}$
+\end_inset
+
+ by the appropiate terms given the previous analysis using 
+\begin_inset Formula $p_{a}^{*}$
+\end_inset
+
+).
+ Notice that equilibrium quantities and equilibrium imports should not longer
+ be a function fo prices but only of 
+\begin_inset Formula $y_{a},y_{b},t_{a,b}(d_{a,b})$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+3.2.
+ Demostrate the law of gravity of trade in your model.
+ The law of gravity of trade works at the equilibrium nominal imports 
+\begin_inset Formula $x_{b,a}^{**}$
+\end_inset
+
+.
+ First, show that if we duplicate both 
+\begin_inset Formula $y_{a}$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{b}$
+\end_inset
+
+ (you may assume specific values for GDP, (
+\begin_inset Formula $y_{a},$
+\end_inset
+
+
+\begin_inset Formula $y_{a}$
+\end_inset
+
+) of Arabasta and Baltigo, and distance) then 
+\begin_inset Formula $x_{b,a}^{**}$
+\end_inset
+
+ strictly increases as well.
+ Second, by pluggin in your function for bilateral trade barrier in terms
+ of distance, show that if distance is larger, keeping the sizes of Arabasta
+ and Baltigo fixed, then 
+\begin_inset Formula $x_{b,a}^{**}$
+\end_inset
+
+ strictly decreases (you can also plug in numerical values here).
+ 
+\end_layout
+
+\begin_layout Section*
+Part 4: Microeconomic Foundation of the Law of Gravity of Trade
+\end_layout
+
+\begin_layout Description
+4.1.
+ Provide a one paragraph explanation of why the Law of Gravity of Trade
+ explains bilateral trade flows between two countries using the concepts
+ we learned in our class and the mode you have developed.
+ Hint: Chapter 1 to 4 and Chapter 8 are the relevant parts here.
+ 
+\end_layout
+
+\begin_layout Section*
+Solutions
+\end_layout
+
+\begin_layout Subsection*
+Solution Part 1:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+1.1.
+ The utility is 
+\begin_inset Formula $u_{a}(c_{a,a},c_{b,a})=c_{a,a}^{\sigma}+c_{b,a}^{\sigma}$
+\end_inset
+
+ for 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ the only parameter.
+ The budget is 
+\begin_inset Formula $p_{aa}c_{aa}+p_{ba}c_{ba}=y_{a}$
+\end_inset
+
+, total imports (self imports + imports from Baltigo) equal to total revenue.
+ 
+\end_layout
+
+\begin_layout Description
+1.2.
+ The first step is to pose the Lagrangian
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L(c_{a,a},c_{b,a},\lambda)=c_{a,a}^{\sigma}+c_{b,a}^{\sigma}+\lambda(y_{a}-p_{aa}c_{aa}+p_{ba}c_{ba})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(I) 
+\begin_inset Formula $\frac{\partial L}{\partial c_{a,a}}=\sigma c_{a,a}^{\sigma-1}-\lambda p_{a,a}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(II) 
+\begin_inset Formula $\frac{\partial L}{\partial c_{b,a}}=\sigma c_{b,a}^{\sigma-1}-\lambda p_{b,a}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(III) 
+\begin_inset Formula $\frac{\partial L}{\partial\lambda}=y_{a}-p_{aa}c_{aa}+p_{ba}c_{ba}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From (I) and (II) we obtain the MRS equal to the ratio of prices conditions:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{c_{a,a}^{\sigma-1}}{c_{b,a}^{\sigma-1}}=\frac{p_{a,a}}{p_{b,a}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From this condition we isolate 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c_{a,a}=c_{b,a}\left(\frac{p_{a,a}}{p_{b,a}}\right)^{\frac{1}{\sigma-1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then we plug-in this into (III)/budget:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p_{a,a}\left(c_{b,a}\left(\frac{p_{a,a}}{p_{b,a}}\right)^{\frac{1}{\sigma-1}}\right)+p_{b,a}c_{b,a}=y_{a}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now solve for 
+\begin_inset Formula $c_{b,a}$
+\end_inset
+
+ in terms of 
+\begin_inset Formula $p_{a,a},p_{b,a},y_{a}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c_{b,a}^{*}=\frac{p_{b,a}^{\frac{1}{\sigma-1}}y_{a}}{p_{a,a}^{\frac{\sigma}{\sigma-1}}+p_{b,a}^{\frac{\sigma}{\sigma-1}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c_{a,a}^{*}=\frac{p_{a,a}^{\frac{1}{\sigma-1}}y_{a}}{p_{a,a}^{\frac{\sigma}{\sigma-1}}+p_{b,a}^{\frac{\sigma}{\sigma-1}}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Baltigo Solution:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c_{a,b}^{*}=\frac{p_{a,b}^{\frac{1}{\sigma-1}}y_{b}}{p_{b,b}^{\frac{\sigma}{\sigma-1}}+p_{a,b}^{\frac{\sigma}{\sigma-1}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c_{b,b}^{*}=\frac{p_{b,b}^{\frac{1}{\sigma-1}}y_{b}}{p_{b,b}^{\frac{\sigma}{\sigma-1}}+p_{a,b}^{\frac{\sigma}{\sigma-1}}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Solution Part 2:
+\end_layout
+
+\begin_layout Standard
+2.1 Equilibrium equation says: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y_{a}=p_{a,a}c_{a,a}+p_{a,b}c_{a,b}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y_{a}=p_{a}c_{a,a}+p_{a}t_{a,b}c_{a,b}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now, we plug in 
+\begin_inset Formula $c_{a,a}^{*},c_{a,b}^{*}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y_{a}=p_{a}\left(\frac{p_{a,a}^{\frac{1}{\sigma-1}}y_{a}}{p_{a,a}^{\frac{\sigma}{\sigma-1}}+p_{b,a}^{\frac{\sigma}{\sigma-1}}}\right)+p_{a}t_{a,b}\left(\frac{p_{a,b}^{\frac{1}{\sigma-1}}y_{b}}{p_{b,b}^{\frac{\sigma}{\sigma-1}}+p_{a,b}^{\frac{\sigma}{\sigma-1}}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Replace the price expressions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y_{a}=p_{a}^{\frac{\sigma}{\sigma-1}}\left(\frac{y_{a}}{p_{a}^{\frac{\sigma}{\sigma-1}}+t_{a,b}^{\frac{\sigma}{\sigma-1}}}+\frac{t_{a,b}^{\frac{\sigma}{\sigma-1}}y_{b}}{1+p_{a}^{\frac{\sigma}{\sigma-1}}t_{a,b}^{\frac{\sigma}{\sigma-1}}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Letting 
+\begin_inset Formula $\sigma=\frac{1}{2}$
+\end_inset
+
+ then, we can solve explicitly the implicit solution above.
+ In this case there are two numerical solutions, but only one economic solution:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p_{a}^{*}=\frac{y_{b}-y_{a}+\sqrt{y_{a}^{2}-2y_{a}y_{b}+4t_{a,b}^{2}y_{a}y_{b}+y_{b}^{2}}}{2t_{a,b}y_{a}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You can verify this is the unique nonnegative solution.
+ 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2.2.
+ The cost function with 
+\begin_inset Formula $d_{a,b}=\frac{1}{\alpha}k$
+\end_inset
+
+, this is constant returns, for 
+\begin_inset Formula $\alpha>0$
+\end_inset
+
+, then by inversion of the production function 
+\begin_inset Formula $c(d_{a,b})=\alpha d_{a,b}$
+\end_inset
+
+ with 
+\begin_inset Formula $r=1$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $t_{a,b}=\alpha d_{a,b}+1$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{\partial t_{a,b}}{\partial d_{a,b}}=\alpha>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Part 3 Solution
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+3.1 We obtain 
+\begin_inset Formula $c_{b,a}^{**}$
+\end_inset
+
+ by replacing 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula 
+\[
+c_{b,a}^{*}=\frac{p_{b,a}^{\frac{1}{\sigma-1}}y_{a}}{p_{a,a}^{\frac{\sigma}{\sigma-1}}+p_{b,a}^{\frac{\sigma}{\sigma-1}}},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+with the appropiate terms:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula 
+\[
+c_{b,a}^{*}=\frac{t_{a,b}^{\frac{1}{\sigma-1}}y_{a}}{p_{a}^{\frac{\sigma}{\sigma-1}}t_{a,a}^{\frac{\sigma}{\sigma-1}}+t_{a,b}^{\frac{\sigma}{\sigma-1}}},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+now replacing 
+\begin_inset Formula $p_{a}^{*}$
+\end_inset
+
+ for 
+\begin_inset Formula $\sigma=\frac{1}{2}$
+\end_inset
+
+, we obtain:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula 
+\[
+c_{b,a}^{**}=\frac{2y_{a}^{2}}{(-1+2t_{a,b}^{2})y_{a}+y_{b}+\sqrt{y_{a}^{2}-2y_{a}y_{b}+4t_{a,b}y_{a}y_{b}+y_{b}^{2}}},
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+by multiplying by 
+\begin_inset Formula $p_{a}^{*}t_{a,b}$
+\end_inset
+
+ we obtain 
+\begin_inset Formula $x_{a,b}^{**}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula 
+\[
+x_{a,b}^{**}=\frac{y_{a}+y_{b}-\sqrt{y_{a}^{2}-2y_{a}y_{b}+4t_{a,b}^{2}y_{a}y_{b}+y_{b}^{2}}}{2-2t_{a,b}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+3.2.
+ 
+\begin_inset Formula $y_{a}=1,y_{b}=1,d_{a,b}=1$
+\end_inset
+
+, with 
+\begin_inset Formula $\alpha=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula 
+\[
+x_{ab}^{**}=\frac{1}{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula 
+\[
+y_{a}^{*}=2,y_{b}^{*}=2,d_{a,b}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula 
+\[
+x_{ab}^{**}=\frac{2}{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula 
+\[
+y_{a}=1,y_{b}=1,d_{a,b}=3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Formula 
+\[
+x_{ab}^{**}=\frac{1}{5}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Part 4 Solution
+\end_layout
+
+\begin_layout Standard
+The effect of the size of countries is driven by the income effect since
+ both goods are normal as the income increases in both countries demand
+ will go up.
+ The effect of distance is driven by the substitution effect as distance
+ increases prices of the imported good hence this will drive demand down,
+ but these findings are only possible because imports is equal to export
+ revenues, which is reminicisent of the Edgeworth effect, due to that increases
+ in prices will have a secondary income effect, so the total effect is ambiguous
+ but we have shown using numerical examples that the gravity of bilateral
+ trade works out in our model as it does in real life.
+ 
+\end_layout
+
+\end_body
+\end_document
